@@ -12,16 +12,16 @@ print(cwd)
 files = os.listdir(path)
 
 k = open('C:/Users/dgallen/Desktop/Python/k/New Text Document.txt','r').read()
-OD = pd.read_csv('pnr_xy_forGoogleAPI.csv')
+OD = pd.read_csv('pnr_xy_forGoogleAPI_800.csv')
 OD = OD.set_index('TCode')
 gmaps = googlemaps.Client(k)
 
 OD['origin'] = [[OD['ox'][x],OD['oy'][x]] for x in range(OD.shape[0])]
 OD['dest'] = [[OD['dx'][x],OD['dy'][x]] for x in range(OD.shape[0])]
 
-OD_test = OD.iloc[151:260]
+OD_test = OD.iloc[201:212]
 
-DT = datetime.strptime('2018-9-19 07:45', '%Y-%m-%d %H:%M')
+DT = datetime.strptime('2018-9-19 08:00', '%Y-%m-%d %H:%M')
 	
 results = []
 for x in range(OD_test.shape[0]):
@@ -32,7 +32,7 @@ for x in range(OD_test.shape[0]):
 					   arrival_time = DT)
            results.append(direct)
 
-results[12][0]['legs'][0]['steps'][1]['html_instructions']
+results[90][0]['legs'][0]['steps'][1]['html_instructions']
 results[1][0]['legs'][0]['steps'][1]['duration']['value']
 results[1][0]['legs'][0]['departure_time']
 
@@ -75,8 +75,7 @@ for idx, val in enumerate(res):
 		dur = value['duration']['value']
 		dir = value['html_instructions']
 		if value['travel_mode'] == 'TRANSIT':
-			bus_no = value['transit_details']['line']['short_name']
-			route_list.append(bus_no)
+			route_list.append('Bus')
 		else:
 			route_list.append('Walk')
 		dur_list.append(dur)
@@ -108,13 +107,10 @@ t.name = 'Direction'
 t = t.reset_index().drop(['TCode'], axis = 1)
 merged_items = s.join(t)
 
-merge151_260 = merged_items.set_index('TCode').join(OD_test[['Name','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']])
+merge201_212 = OD_test[['Name','destCity','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
 
-merge1_50
-merge51_100
-merge101_150
-merge151_260
-merge = merge1_50.append(merge51_100)
-merge = merge.append(merge101_150)
-merge = merge.append(merge151_260)
-merge.to_csv('OD_results.csv')
+merge1_100
+merge101_200
+merge = merge1_100.append(merge101_200)
+merge = merge.append(merge201_212)
+merge.to_csv('OD_results_800.csv')
