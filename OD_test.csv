@@ -1,3 +1,0 @@
-TCode,Name,PnRNum,ox,oy,dx,dy,origin,dest,Directions,Durations
-T010,Como & Eustis,10,44.9877,-93.2028,44.974779,-93.270302,"[44.9877, -93.2028]","[44.974779, -93.270302]","['Walk to Como Ave & Eustis St', 'Bus towards Westbound 3B Como-Front/Dwtn Mpls/Target Field', 'Walk to Nicollet Mall & 5th St S', 'Bus towards Southbound 10 Downtown/Via Univ/Convention Ctr', 'Walk to S 2nd St, Minneapolis, MN 55402, USA']","[83, 1140, 88, 120, 290]"
-T028,Normandale Village,28,44.8249,-93.3484,44.974779,-93.270302,"[44.8249, -93.3484]","[44.974779, -93.270302]","['Walk to Normandale Village & P&R', 'Bus towards Eastbound 539 98St / Mall of Amer', 'Bus towards Northbound 18 Downtown', 'Walk to S 2nd St, Minneapolis, MN 55402, USA']","[21, 1140, 2760, 270]"

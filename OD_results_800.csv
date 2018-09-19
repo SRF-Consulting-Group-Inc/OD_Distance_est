@@ -1,0 +1,784 @@
+TCode,Name,destCity,Final_Arrival,Initial_Departure,Total_Trip_Duration_mins,Duration (sec),Direction
+T010,Como & Eustis,Minneapolis,7:58am,7:23am,35.0,83.0,Walk to Como Ave & Eustis St
+T010,Como & Eustis,Minneapolis,7:58am,7:23am,35.0,1380.0,Bus towards Westbound 3 Dwtn Mpls / Target Field
+T010,Como & Eustis,Minneapolis,7:58am,7:23am,35.0,60.0,Walk to Marquette Ave & 3rd St - Stop Group C
+T010,Como & Eustis,Minneapolis,7:58am,7:23am,35.0,180.0,Bus towards 465 Burnsville Station
+T010,Como & Eustis,Minneapolis,7:58am,7:23am,35.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T028,Normandale Village,Minneapolis,7:46am,7:02am,44.0,21.0,Walk to Normandale Village & P&R
+T028,Normandale Village,Minneapolis,7:46am,7:02am,44.0,2580.0,Bus towards Northbound 597 Express / Minneapolis
+T028,Normandale Village,Minneapolis,7:46am,7:02am,44.0,38.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T032,St. Edward's Catholic Church,Minneapolis,7:40am,7:06am,34.0,20.0,Walk to 94th St W & St Edward Church P&R
+T032,St. Edward's Catholic Church,Minneapolis,7:40am,7:06am,34.0,1980.0,Bus towards Northbound 589 Express / Minneapolis
+T032,St. Edward's Catholic Church,Minneapolis,7:40am,7:06am,34.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T040,Co Rd 73 & I-394 South,Minneapolis,7:54am,7:30am,24.0,204.0,Walk to Co Rd 73 P&R & A Bay
+T040,Co Rd 73 & I-394 South,Minneapolis,7:54am,7:30am,24.0,1200.0,Bus towards Eastbound 673 Express / Downtown
+T040,Co Rd 73 & I-394 South,Minneapolis,7:54am,7:30am,24.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T042,Minnetonka Blvd & Baker Rd,Minneapolis,7:43am,7:13am,30.0,84.0,Walk to Minnetonka Blvd & Baker Rd (Co Rd 60)
+T042,Minnetonka Blvd & Baker Rd,Minneapolis,7:43am,7:13am,30.0,1680.0,Bus towards Eastbound 671 Express / Downtown
+T042,Minnetonka Blvd & Baker Rd,Minneapolis,7:43am,7:13am,30.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T043,Minnetonka Blvd & Steele St,Minneapolis,7:43am,7:09am,34.0,29.0,Walk to Minnetonka Blvd & Steele St P&R
+T043,Minnetonka Blvd & Steele St,Minneapolis,7:43am,7:09am,34.0,1980.0,Bus towards Eastbound 671 Express / Downtown
+T043,Minnetonka Blvd & Steele St,Minneapolis,7:43am,7:09am,34.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T057,Excelsior City Hall,Minneapolis,7:43am,6:50am,53.0,119.0,Walk to Water St & 2nd St
+T057,Excelsior City Hall,Minneapolis,7:43am,6:50am,53.0,3060.0,Bus towards Eastbound 671 Express / Downtown
+T057,Excelsior City Hall,Minneapolis,7:43am,6:50am,53.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T081,Westwood Lutheran Church,Minneapolis,7:47am,7:18am,29.0,8.0,Walk to Cedar Lake Rd & Westwood Church P&R
+T081,Westwood Lutheran Church,Minneapolis,7:47am,7:18am,29.0,1440.0,Bus towards Eastbound 663 Express / Downtown
+T081,Westwood Lutheran Church,Minneapolis,7:47am,7:18am,29.0,278.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T082,Little Canada Municipal Lot,Minneapolis,7:45am,6:42am,63.0,23.0,Walk to Little Canada Rd & McMenemy St
+T082,Little Canada Municipal Lot,Minneapolis,7:45am,6:42am,63.0,1740.0,Bus towards Southbound 71D Concord / Inver Hills / Via Hardman
+T082,Little Canada Municipal Lot,Minneapolis,7:45am,6:42am,63.0,91.0,Walk to 6th St & Jackson / Robert
+T082,Little Canada Municipal Lot,Minneapolis,7:45am,6:42am,63.0,1440.0,Bus towards Westbound 94 Express / Downtown / Minneapolis
+T082,Little Canada Municipal Lot,Minneapolis,7:45am,6:42am,63.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T098,Salem Covenant Church,Minneapolis,7:58am,7:21am,37.0,19.0,Walk to Silver Lake Rd & 5th St NW
+T098,Salem Covenant Church,Minneapolis,7:58am,7:21am,37.0,1980.0,Bus towards Southbound 825 Ltd Stop / Downtown
+T098,Salem Covenant Church,Minneapolis,7:58am,7:21am,37.0,150.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T110,Faith-Lilac Way Lutheran Church,Minneapolis,7:51am,7:25am,26.0,175.0,Walk to 42nd Ave N & Welcome Ave / Hwy 100
+T110,Faith-Lilac Way Lutheran Church,Minneapolis,7:51am,7:25am,26.0,1080.0,Bus towards Southbound 764 Express / Downtown
+T110,Faith-Lilac Way Lutheran Church,Minneapolis,7:51am,7:25am,26.0,286.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T114,Navarre Center,Minneapolis,7:47am,7:12am,35.0,81.0,Walk to Shoreline Dr (Co Rd 15) & #3465
+T114,Navarre Center,Minneapolis,7:47am,7:12am,35.0,1980.0,Bus towards Eastbound 677 Express/Minneapolis/Hwy 12 Bypass
+T114,Navarre Center,Minneapolis,7:47am,7:12am,35.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T130,Wayzata Blvd & Barry Ave,Minneapolis,7:44am,7:18am,26.0,38.0,Walk to Wayzata Blvd P&R & Gate B
+T130,Wayzata Blvd & Barry Ave,Minneapolis,7:44am,7:18am,26.0,1500.0,Bus towards Eastbound 674 Express / Downtown
+T130,Wayzata Blvd & Barry Ave,Minneapolis,7:44am,7:18am,26.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T140,Mermaid Supper Club,Minneapolis,7:40am,7:09am,31.0,238.0,Walk to Co Rd H P&R & Mounds View Blvd / I-35W
+T140,Mermaid Supper Club,Minneapolis,7:40am,7:09am,31.0,1500.0,Bus towards Southbound 250 Express / Co Rd H P&R / Downtown
+T140,Mermaid Supper Club,Minneapolis,7:40am,7:09am,31.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T142,West River Rd & 117th Ave,Minneapolis,7:57am,7:14am,43.0,102.0,Walk to West River Rd & 117th Ave P&R
+T142,West River Rd & 117th Ave,Minneapolis,7:57am,7:14am,43.0,2340.0,Bus towards Southbound 766 Express / Downtown / Via W River Rd
+T142,West River Rd & 117th Ave,Minneapolis,7:57am,7:14am,43.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T143,Zachary Square,Minneapolis,7:53am,7:17am,36.0,2040.0,Bus towards Southbound 782 Trip 4 / Maple Grove / To Mpls
+T143,Zachary Square,Minneapolis,7:53am,7:17am,36.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T145,Christ Episcopal Church,Minneapolis,7:53am,7:01am,52.0,500.0,Walk to Woodbury Theatre & P&R - Leave
+T145,Christ Episcopal Church,Minneapolis,7:53am,7:01am,52.0,2460.0,Bus towards Westbound 355 Express / Minneapolis
+T145,Christ Episcopal Church,Minneapolis,7:53am,7:01am,52.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T152,Blackhawk,Minneapolis,7:48am,7:13am,35.0,35.0,Walk to Blackhawk Park & Ride
+T152,Blackhawk,Minneapolis,7:48am,7:13am,35.0,2040.0,Bus towards 472 Minneapolis
+T152,Blackhawk,Minneapolis,7:48am,7:13am,35.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T155,Church of Nazarene,Minneapolis,7:59am,7:34am,25.0,195.0,Walk to Hwy 252 & 73rd Ave N
+T155,Church of Nazarene,Minneapolis,7:59am,7:34am,25.0,1140.0,Bus towards Southbound 768 Express / Downtown
+T155,Church of Nazarene,Minneapolis,7:59am,7:34am,25.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T158,Hwy 7 & Texas Ave,Minneapolis,7:48am,7:17am,31.0,207.0,Walk to Texas Ave S & Walker St (36th St)
+T158,Hwy 7 & Texas Ave,Minneapolis,7:48am,7:17am,31.0,1620.0,Bus towards Eastbound 667 Express / Downtown
+T158,Hwy 7 & Texas Ave,Minneapolis,7:48am,7:17am,31.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T161,I-35W & Co Rd H,Minneapolis,7:40am,7:13am,27.0,1500.0,Bus towards Southbound 250 Express / Co Rd H P&R / Downtown
+T161,I-35W & Co Rd H,Minneapolis,7:40am,7:13am,27.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T173,Hwy 61 & Lower Afton Rd,Minneapolis,7:53am,7:13am,40.0,200.0,Walk to Hwy 61 & Lower Afton P&R
+T173,Hwy 61 & Lower Afton Rd,Minneapolis,7:53am,7:13am,40.0,1980.0,Bus towards Northbound 365 Express / Minneapolis
+T173,Hwy 61 & Lower Afton Rd,Minneapolis,7:53am,7:13am,40.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T177,Shepherd of the Grove Church,Minneapolis,7:43am,7:12am,31.0,68.0,Walk to Eagle Lake Rd & Shepherd of the Grove P&R
+T177,Shepherd of the Grove Church,Minneapolis,7:43am,7:12am,31.0,1680.0,Bus towards Southbound 780 Trip 3/Maple Grove/To Mpls
+T177,Shepherd of the Grove Church,Minneapolis,7:43am,7:12am,31.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T180,General Mills Blvd & I-394,Minneapolis,7:49am,7:29am,20.0,30.0,Walk to Interstate 394 En & Gen Mills Blvd P&R
+T180,General Mills Blvd & I-394,Minneapolis,7:49am,7:29am,20.0,1140.0,Bus towards Southbound 756 Downtown / Express
+T180,General Mills Blvd & I-394,Minneapolis,7:49am,7:29am,20.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T187,St. Joseph's Church,Minneapolis,7:49am,6:58am,51.0,26.0,Walk to St Josephs P&R & #171 Elm St
+T187,St. Joseph's Church,Minneapolis,7:49am,6:58am,51.0,2880.0,Bus towards Southbound 250 Express / Downtown
+T187,St. Joseph's Church,Minneapolis,7:49am,6:58am,51.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T191,Shoreview Community Center,Minneapolis,7:47am,6:55am,52.0,142.0,Walk to Shoreview Community Center & Victoria Dr
+T191,Shoreview Community Center,Minneapolis,7:47am,6:55am,52.0,2820.0,Bus towards Southbound 261 Express / Dwtn Mpls
+T191,Shoreview Community Center,Minneapolis,7:47am,6:55am,52.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T195,Park Place & I-394,Minneapolis,7:53am,7:36am,17.0,100.0,Walk to Wayzata Blvd S & Park Place Blvd
+T195,Park Place & I-394,Minneapolis,7:53am,7:36am,17.0,840.0,Bus towards Eastbound 645 Ltd Stop / Minneapolis
+T195,Park Place & I-394,Minneapolis,7:53am,7:36am,17.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T198,Palomino Hills,Minneapolis,7:47am,7:13am,34.0,4.0,Walk to Pennock Av at Palomino Hills E corner
+T198,Palomino Hills,Minneapolis,7:47am,7:13am,34.0,1980.0,Bus towards 476 Minneapolis
+T198,Palomino Hills,Minneapolis,7:47am,7:13am,34.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T199,St. Luke's Lutheran Church,Minneapolis,7:56am,7:23am,33.0,143.0,Walk to Old Shakopee Rd & St Lukes P&R
+T199,St. Luke's Lutheran Church,Minneapolis,7:56am,7:23am,33.0,1800.0,Bus towards Northbound 597 Express / Minneapolis
+T199,St. Luke's Lutheran Church,Minneapolis,7:56am,7:23am,33.0,38.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T201,Richardson Park,Minneapolis,7:57am,7:07am,50.0,2880.0,Bus towards Southbound 766 Express / Downtown / Via W River Rd
+T201,Richardson Park,Minneapolis,7:57am,7:07am,50.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T204,Foley Blvd,Minneapolis,7:59am,7:26am,33.0,144.0,Walk to Foley P&R Arrive & Evergreen Blvd
+T204,Foley Blvd,Minneapolis,7:59am,7:26am,33.0,1680.0,Bus towards Southbound 850 Express / Foley P&R / Dntn Mpls
+T204,Foley Blvd,Minneapolis,7:59am,7:26am,33.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T205,Hwy 61 & Co Rd C,Minneapolis,7:51am,7:16am,35.0,2.0,Walk to Maplewood Dr & Hwy 61 - Co Rd C P&R
+T205,Hwy 61 & Co Rd C,Minneapolis,7:51am,7:16am,35.0,1920.0,Bus towards Westbound 270 Express / Minneapolis / Via Co Rd C
+T205,Hwy 61 & Co Rd C,Minneapolis,7:51am,7:16am,35.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T209,Hwy 7 & Vinehill Rd,Minneapolis,7:42am,6:51am,51.0,35.0,Walk to Delton Ave & Vine Hill Rd P&R
+T209,Hwy 7 & Vinehill Rd,Minneapolis,7:42am,6:51am,51.0,3000.0,Bus towards Eastbound 670 Express/Dt Mpls
+T209,Hwy 7 & Vinehill Rd,Minneapolis,7:42am,6:51am,51.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T210,65th Ave & Brooklyn Blvd,Minneapolis,7:55am,7:32am,23.0,20.0,Walk to Brooklyn Blvd P&R & 65th Ave N
+T210,65th Ave & Brooklyn Blvd,Minneapolis,7:55am,7:32am,23.0,1200.0,Bus towards Southbound 760 Express / Downtown
+T210,65th Ave & Brooklyn Blvd,Minneapolis,7:55am,7:32am,23.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T215,Crosswinds Methodist Church,Minneapolis,7:49am,7:14am,35.0,25.0,Walk to Crosswinds P&R & Weaver Lake Rd
+T215,Crosswinds Methodist Church,Minneapolis,7:49am,7:14am,35.0,1920.0,Bus towards Southbound 783 Trip 4 / Maple Grove / To Mpls
+T215,Crosswinds Methodist Church,Minneapolis,7:49am,7:14am,35.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T217,I-35W & 95th Ave,Minneapolis,7:54am,7:19am,35.0,76.0,Walk to 95th Ave P&R
+T217,I-35W & 95th Ave,Minneapolis,7:54am,7:19am,35.0,1860.0,Bus towards Southbound 250 Express / Downtown
+T217,I-35W & 95th Ave,Minneapolis,7:54am,7:19am,35.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T219,West St Paul Sports Complex,Minneapolis,7:44am,7:09am,35.0,97.0,Walk to Oakdale Ave & Wentworth Ave
+T219,West St Paul Sports Complex,Minneapolis,7:44am,7:09am,35.0,1860.0,Bus towards Westbound 452 Express / Minneapolis
+T219,West St Paul Sports Complex,Minneapolis,7:44am,7:09am,35.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T222,Woodbury Lutheran Church,Minneapolis,7:53am,7:00am,53.0,564.0,Walk to Woodbury Theatre & P&R - Leave
+T222,Woodbury Lutheran Church,Minneapolis,7:53am,7:00am,53.0,2460.0,Bus towards Westbound 355 Express / Minneapolis
+T222,Woodbury Lutheran Church,Minneapolis,7:53am,7:00am,53.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T223,St Croix Valley Recreation Center,Minneapolis,7:45am,6:32am,73.0,41.0,Walk to St Croix Rec Center & P&R Shelter
+T223,St Croix Valley Recreation Center,Minneapolis,7:45am,6:32am,73.0,2340.0,Bus towards Westbound 294 Express / St Paul
+T223,St Croix Valley Recreation Center,Minneapolis,7:45am,6:32am,73.0,1440.0,Bus towards Westbound 94 Express / Downtown / Minneapolis
+T223,St Croix Valley Recreation Center,Minneapolis,7:45am,6:32am,73.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T228,Hwy 610 & Noble,Minneapolis,7:59am,7:24am,35.0,250.0,Walk to Hwy 610 Noble Pkwy P&R Arrive & 95th Ave N
+T228,Hwy 610 & Noble,Minneapolis,7:59am,7:24am,35.0,1680.0,Bus towards Southbound 768 Express / Downtown
+T228,Hwy 610 & Noble,Minneapolis,7:59am,7:24am,35.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T229,Woodbury Theatre,Minneapolis,7:53am,7:09am,44.0,40.0,Walk to Woodbury Theatre & P&R - Leave
+T229,Woodbury Theatre,Minneapolis,7:53am,7:09am,44.0,2460.0,Bus towards Westbound 355 Express / Minneapolis
+T229,Woodbury Theatre,Minneapolis,7:53am,7:09am,44.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T230,Preserve Village Mall,Minneapolis,7:53am,6:58am,55.0,73.0,Walk to Hennepin Town Rd & Preserve Village Mall
+T230,Preserve Village Mall,Minneapolis,7:53am,6:58am,55.0,3120.0,Bus towards Eastbound 690P Express/And Lk/Pres P&R/SW Sta/Mpls
+T230,Preserve Village Mall,Minneapolis,7:53am,6:58am,55.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T231,Coon Rapids/Riverdale Station,Minneapolis,7:55am,6:53am,62.0,137.0,Walk to Coon Rapids Riverdale Station & Gate A
+T231,Coon Rapids/Riverdale Station,Minneapolis,7:55am,6:53am,62.0,3420.0,Bus towards Southbound 850 Express / Foley P&R / Dntn Mpls
+T231,Coon Rapids/Riverdale Station,Minneapolis,7:55am,6:53am,62.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T232,Co Rd 42 & Huntington,Minneapolis,7:52am,7:08am,44.0,92.0,Walk to Savage Park & Ride
+T232,Co Rd 42 & Huntington,Minneapolis,7:52am,7:08am,44.0,2520.0,Bus towards 464 MINNEAPOLIS via HOC
+T232,Co Rd 42 & Huntington,Minneapolis,7:52am,7:08am,44.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T242,St. Philip's Park & Ride,Minneapolis,7:49am,7:11am,38.0,6.0,Walk to Cnty Rd 6 & St Philip P&R
+T242,St. Philip's Park & Ride,Minneapolis,7:49am,7:11am,38.0,2160.0,Bus towards Eastbound 776 Olive Ln/Marquette & Washington
+T242,St. Philip's Park & Ride,Minneapolis,7:49am,7:11am,38.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T244,Elk River Station,Minneapolis,7:54am,6:55am,59.0,177.0,Walk to Elk River Station - Platform
+T244,Elk River Station,Minneapolis,7:54am,6:55am,59.0,1380.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T244,Elk River Station,Minneapolis,7:54am,6:55am,59.0,108.0,Walk to East River Rd & 61st Way NE
+T244,Elk River Station,Minneapolis,7:54am,6:55am,59.0,1320.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T244,Elk River Station,Minneapolis,7:54am,6:55am,59.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T245,Cottage Grove,Minneapolis,7:53am,7:03am,50.0,74.0,Walk to Cottage Grove & P&R - Arrive
+T245,Cottage Grove,Minneapolis,7:53am,7:03am,50.0,2760.0,Bus towards Northbound 365 Express / Minneapolis
+T245,Cottage Grove,Minneapolis,7:53am,7:03am,50.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T247,Maple Grove Transit Station,Minneapolis,7:56am,7:24am,32.0,19.0,Walk to Maple Grove Transit Station
+T247,Maple Grove Transit Station,Minneapolis,7:56am,7:24am,32.0,1740.0,Bus towards Southbound 781 Trip 14 / Maple Grove / To Mpls
+T247,Maple Grove Transit Station,Minneapolis,7:56am,7:24am,32.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T248,Walton Park,Minneapolis,7:45am,6:51am,54.0,55.0,Walk to Hadley Ave N & Upper 17th St N
+T248,Walton Park,Minneapolis,7:45am,6:51am,54.0,1260.0,Bus towards Westbound 294 Express / St Paul
+T248,Walton Park,Minneapolis,7:45am,6:51am,54.0,1440.0,Bus towards Westbound 94 Express / Downtown / Minneapolis
+T248,Walton Park,Minneapolis,7:45am,6:51am,54.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T251,28th Ave Station,Minneapolis,7:50am,6:49am,61.0,604.0,Walk to MOA Transit Station & Gate D
+T251,28th Ave Station,Minneapolis,7:50am,6:49am,61.0,840.0,Bus towards Westbound 540C 76-77St / 78St-Cahill / Norman Ct
+T251,28th Ave Station,Minneapolis,7:50am,6:49am,61.0,58.0,Walk to 76th St W & Knox Ave S
+T251,28th Ave Station,Minneapolis,7:50am,6:49am,61.0,1560.0,Bus towards Northbound 535 Ltd Stop / Minneapolis
+T251,28th Ave Station,Minneapolis,7:50am,6:49am,61.0,38.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T252,Ft Snelling Station North,Minneapolis,7:49am,6:49am,60.0,659.0,Walk to Veterans Dr & VA Medical Center Station
+T252,Ft Snelling Station North,Minneapolis,7:49am,6:49am,60.0,2820.0,Bus towards Northbound 22B N Lyndale/Via Logan-57/Brklyn Ctr TC
+T252,Ft Snelling Station North,Minneapolis,7:49am,6:49am,60.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T253,Ft Snelling Station South,Minneapolis,7:49am,6:40am,69.0,1198.0,Walk to Veterans Dr & VA Medical Center Station
+T253,Ft Snelling Station South,Minneapolis,7:49am,6:40am,69.0,2820.0,Bus towards Northbound 22B N Lyndale/Via Logan-57/Brklyn Ctr TC
+T253,Ft Snelling Station South,Minneapolis,7:49am,6:40am,69.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T256,Hwy 100 & Duluth,Minneapolis,7:58am,7:35am,23.0,68.0,Walk to MN Dot P&R & Lilac Dr
+T256,Hwy 100 & Duluth,Minneapolis,7:58am,7:35am,23.0,960.0,Bus towards Southbound 758 Express / Downtown
+T256,Hwy 100 & Duluth,Minneapolis,7:58am,7:35am,23.0,286.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T258,Heart of the City,Minneapolis,7:52am,7:20am,32.0,74.0,Walk to Pillsbury Av at Heart of the City P&R E corner
+T258,Heart of the City,Minneapolis,7:52am,7:20am,32.0,1800.0,Bus towards 464 MINNEAPOLIS via HOC
+T258,Heart of the City,Minneapolis,7:52am,7:20am,32.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T261,Knox Avenue at Best Buy,Minneapolis,7:50am,7:21am,29.0,107.0,Walk to Knox Ave S - Knox Ave P&R
+T261,Knox Avenue at Best Buy,Minneapolis,7:50am,7:21am,29.0,1620.0,Bus towards Northbound 535 Ltd Stop / Minneapolis
+T261,Knox Avenue at Best Buy,Minneapolis,7:50am,7:21am,29.0,38.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T262,Guardian Angels Catholic Church,Minneapolis,7:55am,7:13am,42.0,88.0,Walk to 3rd St N & Guardian Angels P&R
+T262,Guardian Angels Catholic Church,Minneapolis,7:55am,7:13am,42.0,2280.0,Bus towards Westbound 375 Express / Minneapolis
+T262,Guardian Angels Catholic Church,Minneapolis,7:55am,7:13am,42.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T266,Church of St. William,Minneapolis,7:57am,7:31am,26.0,123.0,Walk to University Ave & 61st Ave NE
+T266,Church of St. William,Minneapolis,7:57am,7:31am,26.0,1260.0,Bus towards Southbound 854 Express / Downtown Mpls
+T266,Church of St. William,Minneapolis,7:57am,7:31am,26.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T268,63rd Ave & Bottineau Blvd,Minneapolis,7:55am,7:10am,45.0,939.0,Walk to 63rd Ave N & Zane Ave N
+T268,63rd Ave & Bottineau Blvd,Minneapolis,7:55am,7:10am,45.0,1620.0,Bus towards Southbound 760 Express / Downtown
+T268,63rd Ave & Bottineau Blvd,Minneapolis,7:55am,7:10am,45.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T269,Hwy 252 & 66th Ave,Minneapolis,7:59am,7:33am,26.0,388.0,Walk to Hwy 252 & 66th Ave N
+T269,Hwy 252 & 66th Ave,Minneapolis,7:59am,7:33am,26.0,1020.0,Bus towards Southbound 768 Express / Downtown
+T269,Hwy 252 & 66th Ave,Minneapolis,7:59am,7:33am,26.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T271,Grace Church,Minneapolis,7:47am,7:22am,25.0,21.0,Walk to Grace Church P&R
+T271,Grace Church,Minneapolis,7:47am,7:22am,25.0,1320.0,Bus towards Southbound 261 Express / Dwtn Mpls
+T271,Grace Church,Minneapolis,7:47am,7:22am,25.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T272,Skating Center,Minneapolis,7:47am,7:17am,30.0,39.0,Walk to Civic Center Dr & Skating Center P&R
+T272,Skating Center,Minneapolis,7:47am,7:17am,30.0,1620.0,Bus towards Southbound 261 Express / Dwtn Mpls
+T272,Skating Center,Minneapolis,7:47am,7:17am,30.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T278,Southbridge Crossing,Minneapolis,7:57am,7:08am,49.0,273.0,Walk to Southbridge Crossings Park & Ride
+T278,Southbridge Crossing,Minneapolis,7:57am,7:08am,49.0,2640.0,Bus towards 490 Minneapolis/Eagle/Southbridge
+T278,Southbridge Crossing,Minneapolis,7:57am,7:08am,49.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T284,Ramsey Station,Minneapolis,7:54am,7:03am,51.0,26.0,Walk to Ramsey Station & Platform
+T284,Ramsey Station,Minneapolis,7:54am,7:03am,51.0,1020.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T284,Ramsey Station,Minneapolis,7:54am,7:03am,51.0,108.0,Walk to East River Rd & 61st Way NE
+T284,Ramsey Station,Minneapolis,7:54am,7:03am,51.0,1320.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T284,Ramsey Station,Minneapolis,7:54am,7:03am,51.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T285,St Andrew Lutheran Church,Minneapolis,7:58am,7:22am,36.0,485.0,Walk to SW Station P&R & Technology Dr
+T285,St Andrew Lutheran Church,Minneapolis,7:58am,7:22am,36.0,1620.0,Bus towards Eastbound 690 Express / E Bd / Minneapolis
+T285,St Andrew Lutheran Church,Minneapolis,7:58am,7:22am,36.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T287,I-35 & Kenrick Ave,Minneapolis,7:55am,7:15am,40.0,54.0,Walk to Interstate 35 Ramp & Kenrick Ave P&R
+T287,I-35 & Kenrick Ave,Minneapolis,7:55am,7:15am,40.0,2340.0,Bus towards Northbound 467 Express / Minneapolis
+T287,I-35 & Kenrick Ave,Minneapolis,7:55am,7:15am,40.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T290,I-35W & Co Rd C,Minneapolis,7:45am,7:20am,25.0,27.0,Walk to I-35W / County Road C Park and Ride
+T290,I-35W & Co Rd C,Minneapolis,7:45am,7:20am,25.0,1320.0,Bus towards Southbound 264C Express/35 Co Rd C P&R/Minneapolis
+T290,I-35W & Co Rd C,Minneapolis,7:45am,7:20am,25.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T291,Nathan Lane,Minneapolis,7:56am,7:16am,40.0,90.0,Walk to 45th Ave N & Nathan Lane
+T291,Nathan Lane,Minneapolis,7:56am,7:16am,40.0,2220.0,Bus towards Eastbound 790 Express / Nathan Ln / Downtown
+T291,Nathan Lane,Minneapolis,7:56am,7:16am,40.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T292,SouthWest Village,Minneapolis,7:49am,7:07am,42.0,140.0,Walk to SouthWest Village P&R & Great Plains Blvd
+T292,SouthWest Village,Minneapolis,7:49am,7:07am,42.0,2280.0,Bus towards Eastbound 699E Express/EB/E Crk/SW Vill/MPLS
+T292,SouthWest Village,Minneapolis,7:49am,7:07am,42.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T293,Running Aces,Minneapolis,7:53am,7:03am,50.0,19.0,Walk to Running Aces P&R & Zurich / Lake
+T293,Running Aces,Minneapolis,7:53am,7:03am,50.0,2820.0,Bus towards Southbound 288 Express / Minneapolis
+T293,Running Aces,Minneapolis,7:53am,7:03am,50.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T294,Forest Lake Transit Center,Minneapolis,7:53am,6:50am,63.0,39.0,Walk to Transit Center & Forest Lake P&R
+T294,Forest Lake Transit Center,Minneapolis,7:53am,6:50am,63.0,3600.0,Bus towards Southbound 288 Express / Minneapolis
+T294,Forest Lake Transit Center,Minneapolis,7:53am,6:50am,63.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T297,East Creek Station,Minneapolis,7:46am,7:03am,43.0,69.0,Walk to East Creek Transit Station
+T297,East Creek Station,Minneapolis,7:46am,7:03am,43.0,2400.0,Bus towards Eastbound 697 Express/E Bd/Carver/East Creek/Mpls
+T297,East Creek Station,Minneapolis,7:46am,7:03am,43.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T298,Anoka Station,Minneapolis,7:59am,6:43am,76.0,169.0,Walk to 4th Ave & Pleasant St
+T298,Anoka Station,Minneapolis,7:59am,6:43am,76.0,120.0,Bus towards Northbound 805 COON RAPIDS/RIVERDALE/DT ANOKA
+T298,Anoka Station,Minneapolis,7:59am,6:43am,76.0,32.0,Walk to Main St & 3rd Ave
+T298,Anoka Station,Minneapolis,7:59am,6:43am,76.0,3180.0,Bus towards Southbound 850 Express / Foley P&R / Dntn Mpls
+T298,Anoka Station,Minneapolis,7:59am,6:43am,76.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T299,Fridley Station,Minneapolis,7:54am,7:27am,27.0,126.0,Walk to East River Rd & 61st Way NE
+T299,Fridley Station,Minneapolis,7:54am,7:27am,27.0,1320.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T299,Fridley Station,Minneapolis,7:54am,7:27am,27.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T300,Big Lake Station,Minneapolis,7:54am,6:46am,68.0,63.0,Walk to Big Lake Station & Platform
+T300,Big Lake Station,Minneapolis,7:54am,6:46am,68.0,1980.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T300,Big Lake Station,Minneapolis,7:54am,6:46am,68.0,108.0,Walk to East River Rd & 61st Way NE
+T300,Big Lake Station,Minneapolis,7:54am,6:46am,68.0,1320.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T300,Big Lake Station,Minneapolis,7:54am,6:46am,68.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T301,Parkway Station,Minneapolis,7:57am,7:19am,38.0,52.0,Walk to Parkway Station - P&R
+T301,Parkway Station,Minneapolis,7:57am,7:19am,38.0,2100.0,Bus towards Southbound 785 Trip 8 / Maple Grove / To Mpls
+T301,Parkway Station,Minneapolis,7:57am,7:19am,38.0,113.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T302,Hwy 36 & Rice St,Minneapolis,7:45am,7:13am,32.0,130.0,Walk to Hwy 36 & Rice St P&R & Shelter
+T302,Hwy 36 & Rice St,Minneapolis,7:45am,7:13am,32.0,1620.0,Bus towards Southbound 263 Express / Dwtn Mpls
+T302,Hwy 36 & Rice St,Minneapolis,7:45am,7:13am,32.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T303,Maple Plain,Minneapolis,7:44am,6:44am,60.0,129.0,Walk to Maple Plain P&R & Baker Park Rd
+T303,Maple Plain,Minneapolis,7:44am,6:44am,60.0,3420.0,Bus towards Eastbound 674 Express / Downtown
+T303,Maple Plain,Minneapolis,7:44am,6:44am,60.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T304,I-35E & County Road 14,Minneapolis,7:45am,6:35am,70.0,154.0,Walk to Interstate 35E Co Rd 14 P&R & 21st Ave N
+T304,I-35E & County Road 14,Minneapolis,7:45am,6:35am,70.0,2160.0,Bus towards Southbound 275 Express / St Paul
+T304,I-35E & County Road 14,Minneapolis,7:45am,6:35am,70.0,1440.0,Bus towards Westbound 94 Express / Downtown / Minneapolis
+T304,I-35E & County Road 14,Minneapolis,7:45am,6:35am,70.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T305,I-35E & County Road E,Minneapolis,7:45am,6:51am,54.0,85.0,Walk to Interstate 35E Ramp & I-35E Co Rd E P&R
+T305,I-35E & County Road E,Minneapolis,7:45am,6:51am,54.0,1260.0,Bus towards Southbound 275 Express / St Paul
+T305,I-35E & County Road E,Minneapolis,7:45am,6:51am,54.0,1440.0,Bus towards Westbound 94 Express / Downtown / Minneapolis
+T305,I-35E & County Road E,Minneapolis,7:45am,6:51am,54.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T306,Chanhassen Transit Station,Minneapolis,7:51am,7:08am,43.0,120.0,Walk to Chanhassen Transit Station & P&R
+T306,Chanhassen Transit Station,Minneapolis,7:51am,7:08am,43.0,2400.0,Bus towards Eastbound 692 Express/E Bd/Minneapolis
+T306,Chanhassen Transit Station,Minneapolis,7:51am,7:08am,43.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T309,Hopkins Park-and-Ride,Minneapolis,7:42am,7:13am,29.0,74.0,Walk to Excelsior Blvd & 8th Ave P&R
+T309,Hopkins Park-and-Ride,Minneapolis,7:42am,7:13am,29.0,1620.0,Bus towards Eastbound 670 Express/Dt Mpls
+T309,Hopkins Park-and-Ride,Minneapolis,7:42am,7:13am,29.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T312,Carver Station,Minneapolis,7:46am,6:55am,51.0,35.0,Walk to Carver P&R & Ironwood Dr Jonathan Carver
+T312,Carver Station,Minneapolis,7:46am,6:55am,51.0,2940.0,Bus towards Eastbound 697 Express/E Bd/Carver/East Creek/Mpls
+T312,Carver Station,Minneapolis,7:46am,6:55am,51.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T313,Newport Transit Station,Minneapolis,7:43am,6:54am,49.0,534.0,Walk to Newport Transit Station - P&R
+T313,Newport Transit Station,Minneapolis,7:43am,6:54am,49.0,2280.0,Bus towards Northbound 365 Express / Minneapolis
+T313,Newport Transit Station,Minneapolis,7:43am,6:54am,49.0,151.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T315,Paul Parkway,Minneapolis,7:54am,7:13am,41.0,2340.0,Bus towards Southbound 865 Express / Downtown
+T315,Paul Parkway,Minneapolis,7:54am,7:13am,41.0,150.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T316,Marschall Road Transit Station,Minneapolis,7:47am,6:51am,56.0,217.0,Walk to The Marschall Road Transit Station
+T316,Marschall Road Transit Station,Minneapolis,7:47am,6:51am,56.0,3120.0,Bus towards 493 Minneapolis
+T316,Marschall Road Transit Station,Minneapolis,7:47am,6:51am,56.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T317,Dunkirk Park & Ride,Minneapolis,7:55am,7:15am,40.0,10.0,Walk to Dunkirk Ln P&R - Plymouth Presbyterian
+T317,Dunkirk Park & Ride,Minneapolis,7:55am,7:15am,40.0,2220.0,Bus towards Eastbound 774 EB/Dunkirk/Sta 73/East/DTWN/UofM
+T317,Dunkirk Park & Ride,Minneapolis,7:55am,7:15am,40.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T318,Carmike Cinema,Minneapolis,7:54am,7:10am,44.0,359.0,Walk to Apple Valley Transitway Station NB
+T318,Carmike Cinema,Minneapolis,7:54am,7:10am,44.0,2280.0,Bus towards 477 Minneapolis
+T318,Carmike Cinema,Minneapolis,7:54am,7:10am,44.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,18.0,Walk to Becker P&R & Willow St
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,1200.0,Bus towards Southbound 887 Northstar Link/Big Lake/ResourceCtr
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,33.0,Walk to Big Lake Station & Platform
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,1980.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,108.0,Walk to East River Rd & 61st Way NE
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,1320.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T534,Becker Municipal Lot,Minneapolis,7:54am,6:19am,95.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T564,Northstar Link Lot,Minneapolis,7:54am,6:00am,114.0,2400.0,Bus towards Southbound 887 Northstar Link/Big Lake/ResourceCtr
+T564,Northstar Link Lot,Minneapolis,7:54am,6:00am,114.0,33.0,Walk to Big Lake Station & Platform
+T564,Northstar Link Lot,Minneapolis,7:54am,6:00am,114.0,1980.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T564,Northstar Link Lot,Minneapolis,7:54am,6:00am,114.0,108.0,Walk to East River Rd & 61st Way NE
+T564,Northstar Link Lot,Minneapolis,7:54am,6:00am,114.0,1320.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T564,Northstar Link Lot,Minneapolis,7:54am,6:00am,114.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T701,Maplewood Mall Transit Center,Minneapolis,7:59am,7:20am,39.0,60.0,Walk to Maplewood Mall Transit Center & Gate B
+T701,Maplewood Mall Transit Center,Minneapolis,7:59am,7:20am,39.0,2100.0,Bus towards Westbound 270 Express / Minneapolis
+T701,Maplewood Mall Transit Center,Minneapolis,7:59am,7:20am,39.0,167.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T703,Northtown Transit Center,Minneapolis,7:57am,7:26am,31.0,1740.0,Bus towards Southbound 854 Express / Downtown Mpls
+T703,Northtown Transit Center,Minneapolis,7:57am,7:26am,31.0,176.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T704,Louisiana Ave Transit Center,Minneapolis,7:49am,7:30am,19.0,85.0,Walk to Interstate 394 Exit & Louisiana Transit A Bay
+T704,Louisiana Ave Transit Center,Minneapolis,7:49am,7:30am,19.0,960.0,Bus towards Southbound 756 Downtown / Express
+T704,Louisiana Ave Transit Center,Minneapolis,7:49am,7:30am,19.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T705,Plymouth Road Park & Ride,Minneapolis,7:45am,7:21am,24.0,61.0,Walk to Wayzata Blvd N & Morries Auto
+T705,Plymouth Road Park & Ride,Minneapolis,7:45am,7:21am,24.0,1320.0,Bus towards Eastbound 672 Express / Downtown
+T705,Plymouth Road Park & Ride,Minneapolis,7:45am,7:21am,24.0,7.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T706,Southdale Transit Center,Minneapolis,7:48am,7:18am,30.0,29.0,Walk to Southdale Transit Center & Gate C
+T706,Southdale Transit Center,Minneapolis,7:48am,7:18am,30.0,1740.0,Bus towards Northbound 578 Express / Downtown
+T706,Southdale Transit Center,Minneapolis,7:48am,7:18am,30.0,38.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T707,South Bloomington Transit Center,Minneapolis,7:56am,7:30am,26.0,1560.0,Bus towards Northbound 597 Express / Minneapolis
+T707,South Bloomington Transit Center,Minneapolis,7:56am,7:30am,26.0,38.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T710,Burnsville Transit Station,Minneapolis,7:56am,7:30am,26.0,57.0,Walk to Burnsville Transit Station
+T710,Burnsville Transit Station,Minneapolis,7:56am,7:30am,26.0,1500.0,Bus towards 460 Minneapolis
+T710,Burnsville Transit Station,Minneapolis,7:56am,7:30am,26.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T711,Eagan Transit Station,Minneapolis,7:55am,7:18am,37.0,46.0,Walk to Eagan Transit Station
+T711,Eagan Transit Station,Minneapolis,7:55am,7:18am,37.0,2160.0,Bus towards 470 Minneapolis
+T711,Eagan Transit Station,Minneapolis,7:55am,7:18am,37.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T712,Apple Valley Transit Station,Minneapolis,7:54am,7:12am,42.0,240.0,Walk to Apple Valley Transitway Station NB
+T712,Apple Valley Transit Station,Minneapolis,7:54am,7:12am,42.0,2280.0,Bus towards 477 Minneapolis
+T712,Apple Valley Transit Station,Minneapolis,7:54am,7:12am,42.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T713,SouthWest Station,Minneapolis,7:58am,7:28am,30.0,91.0,Walk to SW Station P&R & Technology Dr
+T713,SouthWest Station,Minneapolis,7:58am,7:28am,30.0,1620.0,Bus towards Eastbound 690 Express / E Bd / Minneapolis
+T713,SouthWest Station,Minneapolis,7:58am,7:28am,30.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T714,Station 73,Minneapolis,7:55am,7:30am,25.0,1440.0,Bus towards Eastbound 774 EB/Dunkirk/Sta 73/East/DTWN/UofM
+T714,Station 73,Minneapolis,7:55am,7:30am,25.0,87.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T010,Como & Eustis,St Paul,7:50am,7:12am,38.0,89.0,Walk to Como Ave & Eustis St
+T010,Como & Eustis,St Paul,7:50am,7:12am,38.0,1980.0,Bus towards Eastbound 3A Como Av/Dwtn St Paul/via Maryland
+T010,Como & Eustis,St Paul,7:50am,7:12am,38.0,238.0,"Walk to St Paul, MN 55101, USA"
+T028,Normandale Village,St Paul,7:59am,6:38am,81.0,21.0,Walk to Normandale Village & P&R
+T028,Normandale Village,St Paul,7:59am,6:38am,81.0,2580.0,Bus towards Northbound 597 Express / Minneapolis
+T028,Normandale Village,St Paul,7:59am,6:38am,81.0,117.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T028,Normandale Village,St Paul,7:59am,6:38am,81.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T028,Normandale Village,St Paul,7:59am,6:38am,81.0,133.0,"Walk to St Paul, MN 55101, USA"
+T032,St. Edward's Catholic Church,St Paul,7:43am,6:37am,66.0,20.0,Walk to 94th St W & St Edward Church P&R
+T032,St. Edward's Catholic Church,St Paul,7:43am,6:37am,66.0,1980.0,Bus towards Northbound 589 Express / Minneapolis
+T032,St. Edward's Catholic Church,St Paul,7:43am,6:37am,66.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T032,St. Edward's Catholic Church,St Paul,7:43am,6:37am,66.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T032,St. Edward's Catholic Church,St Paul,7:43am,6:37am,66.0,133.0,"Walk to St Paul, MN 55101, USA"
+T040,Co Rd 73 & I-394 South,St Paul,7:49am,6:54am,55.0,204.0,Walk to Co Rd 73 P&R & A Bay
+T040,Co Rd 73 & I-394 South,St Paul,7:49am,6:54am,55.0,1200.0,Bus towards Eastbound 673 Express / Downtown
+T040,Co Rd 73 & I-394 South,St Paul,7:49am,6:54am,55.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T040,Co Rd 73 & I-394 South,St Paul,7:49am,6:54am,55.0,1260.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T040,Co Rd 73 & I-394 South,St Paul,7:49am,6:54am,55.0,133.0,"Walk to St Paul, MN 55101, USA"
+T042,Minnetonka Blvd & Baker Rd,St Paul,7:43am,6:41am,62.0,84.0,Walk to Minnetonka Blvd & Baker Rd (Co Rd 60)
+T042,Minnetonka Blvd & Baker Rd,St Paul,7:43am,6:41am,62.0,1620.0,Bus towards Eastbound 671 Express / Downtown
+T042,Minnetonka Blvd & Baker Rd,St Paul,7:43am,6:41am,62.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T042,Minnetonka Blvd & Baker Rd,St Paul,7:43am,6:41am,62.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T042,Minnetonka Blvd & Baker Rd,St Paul,7:43am,6:41am,62.0,133.0,"Walk to St Paul, MN 55101, USA"
+T043,Minnetonka Blvd & Steele St,St Paul,7:43am,6:38am,65.0,29.0,Walk to Minnetonka Blvd & Steele St P&R
+T043,Minnetonka Blvd & Steele St,St Paul,7:43am,6:38am,65.0,1860.0,Bus towards Eastbound 671 Express / Downtown
+T043,Minnetonka Blvd & Steele St,St Paul,7:43am,6:38am,65.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T043,Minnetonka Blvd & Steele St,St Paul,7:43am,6:38am,65.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T043,Minnetonka Blvd & Steele St,St Paul,7:43am,6:38am,65.0,133.0,"Walk to St Paul, MN 55101, USA"
+T057,Excelsior City Hall,St Paul,7:43am,6:22am,81.0,119.0,Walk to Water St & 2nd St
+T057,Excelsior City Hall,St Paul,7:43am,6:22am,81.0,2760.0,Bus towards Eastbound 671 Express / Downtown
+T057,Excelsior City Hall,St Paul,7:43am,6:22am,81.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T057,Excelsior City Hall,St Paul,7:43am,6:22am,81.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T057,Excelsior City Hall,St Paul,7:43am,6:22am,81.0,133.0,"Walk to St Paul, MN 55101, USA"
+T081,Westwood Lutheran Church,St Paul,7:59am,7:03am,56.0,8.0,Walk to Cedar Lake Rd & Westwood Church P&R
+T081,Westwood Lutheran Church,St Paul,7:59am,7:03am,56.0,1440.0,Bus towards Eastbound 663 Express / Downtown
+T081,Westwood Lutheran Church,St Paul,7:59am,7:03am,56.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T081,Westwood Lutheran Church,St Paul,7:59am,7:03am,56.0,133.0,"Walk to St Paul, MN 55101, USA"
+T082,Little Canada Municipal Lot,St Paul,7:43am,7:13am,30.0,23.0,Walk to Little Canada Rd & McMenemy St
+T082,Little Canada Municipal Lot,St Paul,7:43am,7:13am,30.0,1740.0,Bus towards Southbound 71A Downtown / Chester St
+T082,Little Canada Municipal Lot,St Paul,7:43am,7:13am,30.0,34.0,"Walk to St Paul, MN 55101, USA"
+T098,Salem Covenant Church,St Paul,7:59am,6:56am,63.0,19.0,Walk to Silver Lake Rd & 5th St NW
+T098,Salem Covenant Church,St Paul,7:59am,6:56am,63.0,1680.0,Bus towards Southbound 825 Ltd Stop / Downtown
+T098,Salem Covenant Church,St Paul,7:59am,6:56am,63.0,139.0,Walk to 6th St S & Nicollet Mall
+T098,Salem Covenant Church,St Paul,7:59am,6:56am,63.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T098,Salem Covenant Church,St Paul,7:59am,6:56am,63.0,133.0,"Walk to St Paul, MN 55101, USA"
+T110,Faith-Lilac Way Lutheran Church,St Paul,7:49am,7:01am,48.0,175.0,Walk to 42nd Ave N & Welcome Ave / Hwy 100
+T110,Faith-Lilac Way Lutheran Church,St Paul,7:49am,7:01am,48.0,1080.0,Bus towards Southbound 764 Express / Downtown
+T110,Faith-Lilac Way Lutheran Church,St Paul,7:49am,7:01am,48.0,1260.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T110,Faith-Lilac Way Lutheran Church,St Paul,7:49am,7:01am,48.0,133.0,"Walk to St Paul, MN 55101, USA"
+T114,Navarre Center,St Paul,7:37am,6:35am,62.0,81.0,Walk to Shoreline Dr (Co Rd 15) & #3465
+T114,Navarre Center,St Paul,7:37am,6:35am,62.0,1920.0,Bus towards Eastbound 677 Express/Minneapolis/Hwy 12 Bypass
+T114,Navarre Center,St Paul,7:37am,6:35am,62.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T114,Navarre Center,St Paul,7:37am,6:35am,62.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T114,Navarre Center,St Paul,7:37am,6:35am,62.0,133.0,"Walk to St Paul, MN 55101, USA"
+T130,Wayzata Blvd & Barry Ave,St Paul,7:43am,6:47am,56.0,38.0,Walk to Wayzata Blvd P&R & Gate B
+T130,Wayzata Blvd & Barry Ave,St Paul,7:43am,6:47am,56.0,1560.0,Bus towards Eastbound 674 Express / Downtown
+T130,Wayzata Blvd & Barry Ave,St Paul,7:43am,6:47am,56.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T130,Wayzata Blvd & Barry Ave,St Paul,7:43am,6:47am,56.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T130,Wayzata Blvd & Barry Ave,St Paul,7:43am,6:47am,56.0,133.0,"Walk to St Paul, MN 55101, USA"
+T140,Mermaid Supper Club,St Paul,7:49am,7:15am,34.0,238.0,Walk to Co Rd H P&R & Mounds View Blvd / I-35W
+T140,Mermaid Supper Club,St Paul,7:49am,7:15am,34.0,1800.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T140,Mermaid Supper Club,St Paul,7:49am,7:15am,34.0,59.0,"Walk to St Paul, MN 55101, USA"
+T142,West River Rd & 117th Ave,St Paul,7:59am,6:44am,75.0,102.0,Walk to West River Rd & 117th Ave P&R
+T142,West River Rd & 117th Ave,St Paul,7:59am,6:44am,75.0,2160.0,Bus towards Southbound 766 Express / Downtown / Via W River Rd
+T142,West River Rd & 117th Ave,St Paul,7:59am,6:44am,75.0,102.0,Walk to 6th St S & Nicollet Mall
+T142,West River Rd & 117th Ave,St Paul,7:59am,6:44am,75.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T142,West River Rd & 117th Ave,St Paul,7:59am,6:44am,75.0,133.0,"Walk to St Paul, MN 55101, USA"
+T143,Zachary Square,St Paul,7:59am,6:49am,70.0,1800.0,Bus towards Southbound 782 Trip 3 / Maple Grove / To Mpls
+T143,Zachary Square,St Paul,7:59am,6:49am,70.0,102.0,Walk to 6th St S & Nicollet Mall
+T143,Zachary Square,St Paul,7:59am,6:49am,70.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T143,Zachary Square,St Paul,7:59am,6:49am,70.0,133.0,"Walk to St Paul, MN 55101, USA"
+T145,Christ Episcopal Church,St Paul,7:48am,7:26am,22.0,113.0,Walk to Woodbury Lutheran & P&R - Arrive
+T145,Christ Episcopal Church,St Paul,7:48am,7:26am,22.0,1200.0,Bus towards Westbound 351 Express / St Paul
+T145,Christ Episcopal Church,St Paul,7:48am,7:26am,22.0,59.0,"Walk to St Paul, MN 55101, USA"
+T152,Blackhawk,St Paul,7:48am,7:17am,31.0,35.0,Walk to Blackhawk Park & Ride
+T152,Blackhawk,St Paul,7:48am,7:17am,31.0,1680.0,Bus towards 480 St Paul
+T152,Blackhawk,St Paul,7:48am,7:17am,31.0,133.0,"Walk to St Paul, MN 55101, USA"
+T155,Church of Nazarene,St Paul,7:59am,7:01am,58.0,195.0,Walk to Hwy 252 & 73rd Ave N
+T155,Church of Nazarene,St Paul,7:59am,7:01am,58.0,1020.0,Bus towards Southbound 766 Express / Downtown / Via W River Rd
+T155,Church of Nazarene,St Paul,7:59am,7:01am,58.0,102.0,Walk to 6th St S & Nicollet Mall
+T155,Church of Nazarene,St Paul,7:59am,7:01am,58.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T155,Church of Nazarene,St Paul,7:59am,7:01am,58.0,133.0,"Walk to St Paul, MN 55101, USA"
+T158,Hwy 7 & Texas Ave,St Paul,7:49am,6:50am,59.0,207.0,Walk to Texas Ave S & Walker St (36th St)
+T158,Hwy 7 & Texas Ave,St Paul,7:49am,6:50am,59.0,1620.0,Bus towards Eastbound 667 Express / Downtown
+T158,Hwy 7 & Texas Ave,St Paul,7:49am,6:50am,59.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T158,Hwy 7 & Texas Ave,St Paul,7:49am,6:50am,59.0,1260.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T158,Hwy 7 & Texas Ave,St Paul,7:49am,6:50am,59.0,133.0,"Walk to St Paul, MN 55101, USA"
+T161,I-35W & Co Rd H,St Paul,7:49am,7:19am,30.0,1800.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T161,I-35W & Co Rd H,St Paul,7:49am,7:19am,30.0,59.0,"Walk to St Paul, MN 55101, USA"
+T173,Hwy 61 & Lower Afton Rd,St Paul,7:37am,7:17am,20.0,200.0,Walk to Hwy 61 & Lower Afton P&R
+T173,Hwy 61 & Lower Afton Rd,St Paul,7:37am,7:17am,20.0,900.0,Bus towards Northbound 361B Express / St Paul
+T173,Hwy 61 & Lower Afton Rd,St Paul,7:37am,7:17am,20.0,59.0,"Walk to St Paul, MN 55101, USA"
+T177,Shepherd of the Grove Church,St Paul,7:43am,6:42am,61.0,68.0,Walk to Eagle Lake Rd & Shepherd of the Grove P&R
+T177,Shepherd of the Grove Church,St Paul,7:43am,6:42am,61.0,1500.0,Bus towards Southbound 780 Trip 2/Maple Grove/To Mpls
+T177,Shepherd of the Grove Church,St Paul,7:43am,6:42am,61.0,102.0,Walk to 6th St S & Nicollet Mall
+T177,Shepherd of the Grove Church,St Paul,7:43am,6:42am,61.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T177,Shepherd of the Grove Church,St Paul,7:43am,6:42am,61.0,133.0,"Walk to St Paul, MN 55101, USA"
+T180,General Mills Blvd & I-394,St Paul,7:49am,7:01am,48.0,30.0,Walk to Interstate 394 En & Gen Mills Blvd P&R
+T180,General Mills Blvd & I-394,St Paul,7:49am,7:01am,48.0,1140.0,Bus towards Southbound 756 Downtown / Express
+T180,General Mills Blvd & I-394,St Paul,7:49am,7:01am,48.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T180,General Mills Blvd & I-394,St Paul,7:49am,7:01am,48.0,1260.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T180,General Mills Blvd & I-394,St Paul,7:49am,7:01am,48.0,133.0,"Walk to St Paul, MN 55101, USA"
+T187,St. Joseph's Church,St Paul,7:37am,6:25am,72.0,26.0,Walk to St Josephs P&R & #171 Elm St
+T187,St. Joseph's Church,St Paul,7:37am,6:25am,72.0,2340.0,Bus towards Southbound 250 Express / Downtown
+T187,St. Joseph's Church,St Paul,7:37am,6:25am,72.0,443.0,Walk to 6th St S & 11th Ave S
+T187,St. Joseph's Church,St Paul,7:37am,6:25am,72.0,960.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T187,St. Joseph's Church,St Paul,7:37am,6:25am,72.0,133.0,"Walk to St Paul, MN 55101, USA"
+T191,Shoreview Community Center,St Paul,7:50am,6:55am,55.0,142.0,Walk to Shoreview Community Center & Victoria Dr
+T191,Shoreview Community Center,St Paul,7:50am,6:55am,55.0,2940.0,Bus towards Southbound 62D Smith Av/ Signal Hills / Thompson
+T191,Shoreview Community Center,St Paul,7:50am,6:55am,55.0,238.0,"Walk to St Paul, MN 55101, USA"
+T195,Park Place & I-394,St Paul,7:59am,6:53am,66.0,369.0,Walk to Xenia Ave & #5500
+T195,Park Place & I-394,St Paul,7:59am,6:53am,66.0,1080.0,Bus towards Eastbound 9 Downtown
+T195,Park Place & I-394,St Paul,7:59am,6:53am,66.0,219.0,Walk to 6th St & Hennepin Ave
+T195,Park Place & I-394,St Paul,7:59am,6:53am,66.0,1440.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T195,Park Place & I-394,St Paul,7:59am,6:53am,66.0,133.0,"Walk to St Paul, MN 55101, USA"
+T198,Palomino Hills,St Paul,7:46am,7:07am,39.0,4.0,Walk to Pennock Av at Palomino Hills E corner
+T198,Palomino Hills,St Paul,7:46am,7:07am,39.0,2160.0,Bus towards 480 St Paul
+T198,Palomino Hills,St Paul,7:46am,7:07am,39.0,133.0,"Walk to St Paul, MN 55101, USA"
+T199,St. Luke's Lutheran Church,St Paul,7:59am,6:49am,70.0,143.0,Walk to Old Shakopee Rd & St Lukes P&R
+T199,St. Luke's Lutheran Church,St Paul,7:59am,6:49am,70.0,1800.0,Bus towards Northbound 597 Express / Minneapolis
+T199,St. Luke's Lutheran Church,St Paul,7:59am,6:49am,70.0,117.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T199,St. Luke's Lutheran Church,St Paul,7:59am,6:49am,70.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T199,St. Luke's Lutheran Church,St Paul,7:59am,6:49am,70.0,133.0,"Walk to St Paul, MN 55101, USA"
+T201,Richardson Park,St Paul,7:59am,6:37am,82.0,2700.0,Bus towards Southbound 766 Express / Downtown / Via W River Rd
+T201,Richardson Park,St Paul,7:59am,6:37am,82.0,102.0,Walk to 6th St S & Nicollet Mall
+T201,Richardson Park,St Paul,7:59am,6:37am,82.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T201,Richardson Park,St Paul,7:59am,6:37am,82.0,133.0,"Walk to St Paul, MN 55101, USA"
+T204,Foley Blvd,St Paul,7:59am,6:58am,61.0,144.0,Walk to Foley P&R Arrive & Evergreen Blvd
+T204,Foley Blvd,St Paul,7:59am,6:58am,61.0,1260.0,Bus towards Southbound 850 Express / Foley P&R / Dntn Mpls
+T204,Foley Blvd,St Paul,7:59am,6:58am,61.0,198.0,Walk to 6th St S & Nicollet Mall
+T204,Foley Blvd,St Paul,7:59am,6:58am,61.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T204,Foley Blvd,St Paul,7:59am,6:58am,61.0,133.0,"Walk to St Paul, MN 55101, USA"
+T205,Hwy 61 & Co Rd C,St Paul,7:46am,7:25am,21.0,226.0,Walk to Hwy 61 & Co Rd C P&R
+T205,Hwy 61 & Co Rd C,St Paul,7:46am,7:25am,21.0,1020.0,Bus towards Southbound 265 Express / St Paul
+T205,Hwy 61 & Co Rd C,St Paul,7:46am,7:25am,21.0,59.0,"Walk to St Paul, MN 55101, USA"
+T209,Hwy 7 & Vinehill Rd,St Paul,7:43am,6:21am,82.0,35.0,Walk to Delton Ave & Vine Hill Rd P&R
+T209,Hwy 7 & Vinehill Rd,St Paul,7:43am,6:21am,82.0,2940.0,Bus towards Eastbound 670 Express/Dt Mpls
+T209,Hwy 7 & Vinehill Rd,St Paul,7:43am,6:21am,82.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T209,Hwy 7 & Vinehill Rd,St Paul,7:43am,6:21am,82.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T209,Hwy 7 & Vinehill Rd,St Paul,7:43am,6:21am,82.0,133.0,"Walk to St Paul, MN 55101, USA"
+T210,65th Ave & Brooklyn Blvd,St Paul,7:49am,6:56am,53.0,20.0,Walk to Brooklyn Blvd P&R & 65th Ave N
+T210,65th Ave & Brooklyn Blvd,St Paul,7:49am,6:56am,53.0,1140.0,Bus towards Southbound 760 Express / Downtown
+T210,65th Ave & Brooklyn Blvd,St Paul,7:49am,6:56am,53.0,102.0,Walk to 6th St S & Nicollet Mall
+T210,65th Ave & Brooklyn Blvd,St Paul,7:49am,6:56am,53.0,1380.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T210,65th Ave & Brooklyn Blvd,St Paul,7:49am,6:56am,53.0,133.0,"Walk to St Paul, MN 55101, USA"
+T215,Crosswinds Methodist Church,St Paul,7:49am,6:46am,63.0,25.0,Walk to Crosswinds P&R & Weaver Lake Rd
+T215,Crosswinds Methodist Church,St Paul,7:49am,6:46am,63.0,1680.0,Bus towards Southbound 783 Trip 3 / Maple Grove / To Mpls
+T215,Crosswinds Methodist Church,St Paul,7:49am,6:46am,63.0,102.0,Walk to 6th St S & Nicollet Mall
+T215,Crosswinds Methodist Church,St Paul,7:49am,6:46am,63.0,1380.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T215,Crosswinds Methodist Church,St Paul,7:49am,6:46am,63.0,133.0,"Walk to St Paul, MN 55101, USA"
+T217,I-35W & 95th Ave,St Paul,7:59am,6:58am,61.0,76.0,Walk to 95th Ave P&R
+T217,I-35W & 95th Ave,St Paul,7:59am,6:58am,61.0,1320.0,Bus towards Southbound 250 Express / Downtown
+T217,I-35W & 95th Ave,St Paul,7:59am,6:58am,61.0,443.0,Walk to 6th St S & 11th Ave S
+T217,I-35W & 95th Ave,St Paul,7:59am,6:58am,61.0,960.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T217,I-35W & 95th Ave,St Paul,7:59am,6:58am,61.0,133.0,"Walk to St Paul, MN 55101, USA"
+T219,West St Paul Sports Complex,St Paul,7:49am,7:22am,27.0,681.0,Walk to Robert St S & Wentworth Ave
+T219,West St Paul Sports Complex,St Paul,7:49am,7:22am,27.0,900.0,Bus towards Northbound 68 Downtown / Oakdale-Marie
+T219,West St Paul Sports Complex,St Paul,7:49am,7:22am,27.0,3.0,"Walk to St Paul, MN 55101, USA"
+T222,Woodbury Lutheran Church,St Paul,7:48am,7:26am,22.0,100.0,Walk to Woodbury Lutheran & P&R - Arrive
+T222,Woodbury Lutheran Church,St Paul,7:48am,7:26am,22.0,1200.0,Bus towards Westbound 351 Express / St Paul
+T222,Woodbury Lutheran Church,St Paul,7:48am,7:26am,22.0,59.0,"Walk to St Paul, MN 55101, USA"
+T223,St Croix Valley Recreation Center,St Paul,7:41am,6:58am,43.0,41.0,Walk to St Croix Rec Center & P&R Shelter
+T223,St Croix Valley Recreation Center,St Paul,7:41am,6:58am,43.0,2460.0,Bus towards Westbound 294 Express / St Paul
+T223,St Croix Valley Recreation Center,St Paul,7:41am,6:58am,43.0,59.0,"Walk to St Paul, MN 55101, USA"
+T228,Hwy 610 & Noble,St Paul,7:59am,6:50am,69.0,250.0,Walk to Hwy 610 Noble Pkwy P&R Arrive & 95th Ave N
+T228,Hwy 610 & Noble,St Paul,7:59am,6:50am,69.0,1500.0,Bus towards Southbound 768 Express / Downtown
+T228,Hwy 610 & Noble,St Paul,7:59am,6:50am,69.0,102.0,Walk to 6th St S & Nicollet Mall
+T228,Hwy 610 & Noble,St Paul,7:59am,6:50am,69.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T228,Hwy 610 & Noble,St Paul,7:59am,6:50am,69.0,133.0,"Walk to St Paul, MN 55101, USA"
+T229,Woodbury Theatre,St Paul,7:48am,7:18am,30.0,579.0,Walk to Woodbury Lutheran & P&R - Arrive
+T229,Woodbury Theatre,St Paul,7:48am,7:18am,30.0,1200.0,Bus towards Westbound 351 Express / St Paul
+T229,Woodbury Theatre,St Paul,7:48am,7:18am,30.0,59.0,"Walk to St Paul, MN 55101, USA"
+T230,Preserve Village Mall,St Paul,7:43am,6:18am,85.0,73.0,Walk to Hennepin Town Rd & Preserve Village Mall
+T230,Preserve Village Mall,St Paul,7:43am,6:18am,85.0,3060.0,Bus towards Eastbound 690P Express/And Lk/Pres P&R/SW Sta/Mpls
+T230,Preserve Village Mall,St Paul,7:43am,6:18am,85.0,134.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T230,Preserve Village Mall,St Paul,7:43am,6:18am,85.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T230,Preserve Village Mall,St Paul,7:43am,6:18am,85.0,133.0,"Walk to St Paul, MN 55101, USA"
+T231,Coon Rapids/Riverdale Station,St Paul,7:49am,6:49am,60.0,128.0,Walk to Coon Rapids Riverdale Station & Gate C
+T231,Coon Rapids/Riverdale Station,St Paul,7:49am,6:49am,60.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T231,Coon Rapids/Riverdale Station,St Paul,7:49am,6:49am,60.0,59.0,"Walk to St Paul, MN 55101, USA"
+T232,Co Rd 42 & Huntington,St Paul,7:48am,6:37am,71.0,92.0,Walk to Savage Park & Ride
+T232,Co Rd 42 & Huntington,St Paul,7:48am,6:37am,71.0,720.0,Bus towards 464 MINNEAPOLIS via HOC
+T232,Co Rd 42 & Huntington,St Paul,7:48am,6:37am,71.0,2820.0,Bus towards 480 St Paul
+T232,Co Rd 42 & Huntington,St Paul,7:48am,6:37am,71.0,133.0,"Walk to St Paul, MN 55101, USA"
+T242,St. Philip's Park & Ride,St Paul,7:59am,6:44am,75.0,6.0,Walk to Cnty Rd 6 & St Philip P&R
+T242,St. Philip's Park & Ride,St Paul,7:59am,6:44am,75.0,2280.0,Bus towards Eastbound 776 Olive Ln/Marquette & Washington
+T242,St. Philip's Park & Ride,St Paul,7:59am,6:44am,75.0,134.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T242,St. Philip's Park & Ride,St Paul,7:59am,6:44am,75.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T242,St. Philip's Park & Ride,St Paul,7:59am,6:44am,75.0,133.0,"Walk to St Paul, MN 55101, USA"
+T244,Elk River Station,St Paul,7:49am,6:25am,84.0,177.0,Walk to Elk River Station - Platform
+T244,Elk River Station,St Paul,7:49am,6:25am,84.0,900.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T244,Elk River Station,St Paul,7:49am,6:25am,84.0,30.0,Walk to Coon Rapids Riverdale Station & Gate C
+T244,Elk River Station,St Paul,7:49am,6:25am,84.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T244,Elk River Station,St Paul,7:49am,6:25am,84.0,59.0,"Walk to St Paul, MN 55101, USA"
+T245,Cottage Grove,St Paul,7:37am,7:07am,30.0,74.0,Walk to Cottage Grove & P&R - Arrive
+T245,Cottage Grove,St Paul,7:37am,7:07am,30.0,1680.0,Bus towards Northbound 361B Express / St Paul
+T245,Cottage Grove,St Paul,7:37am,7:07am,30.0,59.0,"Walk to St Paul, MN 55101, USA"
+T247,Maple Grove Transit Station,St Paul,7:59am,6:59am,60.0,19.0,Walk to Maple Grove Transit Station
+T247,Maple Grove Transit Station,St Paul,7:59am,6:59am,60.0,1440.0,Bus towards Southbound 781 Trip 9 / Maple Grove / To Mpls
+T247,Maple Grove Transit Station,St Paul,7:59am,6:59am,60.0,102.0,Walk to 6th St S & Nicollet Mall
+T247,Maple Grove Transit Station,St Paul,7:59am,6:59am,60.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T247,Maple Grove Transit Station,St Paul,7:59am,6:59am,60.0,133.0,"Walk to St Paul, MN 55101, USA"
+T248,Walton Park,St Paul,7:41am,7:17am,24.0,55.0,Walk to Hadley Ave N & Upper 17th St N
+T248,Walton Park,St Paul,7:41am,7:17am,24.0,1380.0,Bus towards Westbound 294 Express / St Paul
+T248,Walton Park,St Paul,7:41am,7:17am,24.0,59.0,"Walk to St Paul, MN 55101, USA"
+T251,28th Ave Station,St Paul,7:54am,7:16am,38.0,68.0,Walk to Lindau Ln & 28th Ave / 30th Ave
+T251,28th Ave Station,St Paul,7:54am,7:16am,38.0,2040.0,Bus towards Eastbound 54M Ltd Stop/Mplwd Mall/Via Airport
+T251,28th Ave Station,St Paul,7:54am,7:16am,38.0,133.0,"Walk to St Paul, MN 55101, USA"
+T252,Ft Snelling Station North,St Paul,7:55am,6:52am,63.0,265.0,Walk to Fort Snelling Station
+T252,Ft Snelling Station North,St Paul,7:55am,6:52am,63.0,360.0,Light rail towards Northbound to Mpls-Target Field
+T252,Ft Snelling Station North,St Paul,7:55am,6:52am,63.0,44.0,Walk to 46th Street Station
+T252,Ft Snelling Station North,St Paul,7:55am,6:52am,63.0,2160.0,Bus towards Eastbound 74S E 7th St / Sunray
+T252,Ft Snelling Station North,St Paul,7:55am,6:52am,63.0,133.0,"Walk to St Paul, MN 55101, USA"
+T253,Ft Snelling Station South,St Paul,7:55am,6:52am,63.0,282.0,Walk to Fort Snelling Station
+T253,Ft Snelling Station South,St Paul,7:55am,6:52am,63.0,360.0,Light rail towards Northbound to Mpls-Target Field
+T253,Ft Snelling Station South,St Paul,7:55am,6:52am,63.0,44.0,Walk to 46th Street Station
+T253,Ft Snelling Station South,St Paul,7:55am,6:52am,63.0,2160.0,Bus towards Eastbound 74S E 7th St / Sunray
+T253,Ft Snelling Station South,St Paul,7:55am,6:52am,63.0,133.0,"Walk to St Paul, MN 55101, USA"
+T256,Hwy 100 & Duluth,St Paul,7:59am,7:07am,52.0,68.0,Walk to MN Dot P&R & Lilac Dr
+T256,Hwy 100 & Duluth,St Paul,7:59am,7:07am,52.0,960.0,Bus towards Southbound 758 Express / Downtown
+T256,Hwy 100 & Duluth,St Paul,7:59am,7:07am,52.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T256,Hwy 100 & Duluth,St Paul,7:59am,7:07am,52.0,133.0,"Walk to St Paul, MN 55101, USA"
+T258,Heart of the City,St Paul,7:48am,6:57am,51.0,74.0,Walk to Pillsbury Av at Heart of the City P&R E corner
+T258,Heart of the City,St Paul,7:48am,6:57am,51.0,2820.0,Bus towards 480 St Paul
+T258,Heart of the City,St Paul,7:48am,6:57am,51.0,133.0,"Walk to St Paul, MN 55101, USA"
+T261,Knox Avenue at Best Buy,St Paul,7:59am,6:52am,67.0,107.0,Walk to Knox Ave S - Knox Ave P&R
+T261,Knox Avenue at Best Buy,St Paul,7:59am,6:52am,67.0,1620.0,Bus towards Northbound 535 Ltd Stop / Minneapolis
+T261,Knox Avenue at Best Buy,St Paul,7:59am,6:52am,67.0,117.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T261,Knox Avenue at Best Buy,St Paul,7:59am,6:52am,67.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T261,Knox Avenue at Best Buy,St Paul,7:59am,6:52am,67.0,133.0,"Walk to St Paul, MN 55101, USA"
+T262,Guardian Angels Catholic Church,St Paul,7:59am,7:02am,57.0,88.0,Walk to 3rd St N & Guardian Angels P&R
+T262,Guardian Angels Catholic Church,St Paul,7:59am,7:02am,57.0,1800.0,Bus towards Westbound 375 Express / Minneapolis
+T262,Guardian Angels Catholic Church,St Paul,7:59am,7:02am,57.0,162.0,Walk to 6th St S & 11th Ave S
+T262,Guardian Angels Catholic Church,St Paul,7:59am,7:02am,57.0,960.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T262,Guardian Angels Catholic Church,St Paul,7:59am,7:02am,57.0,133.0,"Walk to St Paul, MN 55101, USA"
+T266,Church of St. William,St Paul,7:49am,6:58am,51.0,123.0,Walk to University Ave & 61st Ave NE
+T266,Church of St. William,St Paul,7:49am,6:58am,51.0,960.0,Bus towards Southbound 854 Express / Downtown Mpls
+T266,Church of St. William,St Paul,7:49am,6:58am,51.0,198.0,Walk to 6th St S & Nicollet Mall
+T266,Church of St. William,St Paul,7:49am,6:58am,51.0,1380.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T266,Church of St. William,St Paul,7:49am,6:58am,51.0,133.0,"Walk to St Paul, MN 55101, USA"
+T268,63rd Ave & Bottineau Blvd,St Paul,7:43am,6:37am,66.0,554.0,Walk to West Broadway Ave & 63rd Ave N
+T268,63rd Ave & Bottineau Blvd,St Paul,7:43am,6:37am,66.0,1500.0,Bus towards Southbound 767 Express / Downtown
+T268,63rd Ave & Bottineau Blvd,St Paul,7:43am,6:37am,66.0,102.0,Walk to 6th St S & Nicollet Mall
+T268,63rd Ave & Bottineau Blvd,St Paul,7:43am,6:37am,66.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T268,63rd Ave & Bottineau Blvd,St Paul,7:43am,6:37am,66.0,133.0,"Walk to St Paul, MN 55101, USA"
+T269,Hwy 252 & 66th Ave,St Paul,7:59am,7:01am,58.0,388.0,Walk to Hwy 252 & 66th Ave N
+T269,Hwy 252 & 66th Ave,St Paul,7:59am,7:01am,58.0,840.0,Bus towards Southbound 766 Express / Downtown / Via W River Rd
+T269,Hwy 252 & 66th Ave,St Paul,7:59am,7:01am,58.0,102.0,Walk to 6th St S & Nicollet Mall
+T269,Hwy 252 & 66th Ave,St Paul,7:59am,7:01am,58.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T269,Hwy 252 & 66th Ave,St Paul,7:59am,7:01am,58.0,133.0,"Walk to St Paul, MN 55101, USA"
+T271,Grace Church,St Paul,7:49am,6:54am,55.0,21.0,Walk to Grace Church P&R
+T271,Grace Church,St Paul,7:49am,6:54am,55.0,1080.0,Bus towards Southbound 261 Express / Dwtn Mpls
+T271,Grace Church,St Paul,7:49am,6:54am,55.0,148.0,Walk to 6th St S & Nicollet Mall
+T271,Grace Church,St Paul,7:49am,6:54am,55.0,1380.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T271,Grace Church,St Paul,7:49am,6:54am,55.0,133.0,"Walk to St Paul, MN 55101, USA"
+T272,Skating Center,St Paul,7:49am,6:49am,60.0,39.0,Walk to Civic Center Dr & Skating Center P&R
+T272,Skating Center,St Paul,7:49am,6:49am,60.0,1380.0,Bus towards Southbound 261 Express / Dwtn Mpls
+T272,Skating Center,St Paul,7:49am,6:49am,60.0,148.0,Walk to 6th St S & Nicollet Mall
+T272,Skating Center,St Paul,7:49am,6:49am,60.0,1380.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T272,Skating Center,St Paul,7:49am,6:49am,60.0,133.0,"Walk to St Paul, MN 55101, USA"
+T278,Southbridge Crossing,St Paul,7:59am,6:44am,75.0,273.0,Walk to Southbridge Crossings Park & Ride
+T278,Southbridge Crossing,St Paul,7:59am,6:44am,75.0,2340.0,Bus towards 490 Minneapolis/Eagle/Southbridge
+T278,Southbridge Crossing,St Paul,7:59am,6:44am,75.0,102.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T278,Southbridge Crossing,St Paul,7:59am,6:44am,75.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T278,Southbridge Crossing,St Paul,7:59am,6:44am,75.0,133.0,"Walk to St Paul, MN 55101, USA"
+T284,Ramsey Station,St Paul,7:49am,6:33am,76.0,26.0,Walk to Ramsey Station & Platform
+T284,Ramsey Station,St Paul,7:49am,6:33am,76.0,540.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T284,Ramsey Station,St Paul,7:49am,6:33am,76.0,30.0,Walk to Coon Rapids Riverdale Station & Gate C
+T284,Ramsey Station,St Paul,7:49am,6:33am,76.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T284,Ramsey Station,St Paul,7:49am,6:33am,76.0,59.0,"Walk to St Paul, MN 55101, USA"
+T285,St Andrew Lutheran Church,St Paul,7:59am,6:52am,67.0,485.0,Walk to SW Station P&R & Technology Dr
+T285,St Andrew Lutheran Church,St Paul,7:59am,6:52am,67.0,1620.0,Bus towards Eastbound 690A Express/E BD/Dell Rd/VV/SW Sta/Mpls
+T285,St Andrew Lutheran Church,St Paul,7:59am,6:52am,67.0,172.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T285,St Andrew Lutheran Church,St Paul,7:59am,6:52am,67.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T285,St Andrew Lutheran Church,St Paul,7:59am,6:52am,67.0,133.0,"Walk to St Paul, MN 55101, USA"
+T287,I-35 & Kenrick Ave,St Paul,7:59am,6:47am,72.0,54.0,Walk to Interstate 35 Ramp & Kenrick Ave P&R
+T287,I-35 & Kenrick Ave,St Paul,7:59am,6:47am,72.0,2220.0,Bus towards Northbound 467 Express / Minneapolis
+T287,I-35 & Kenrick Ave,St Paul,7:59am,6:47am,72.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T287,I-35 & Kenrick Ave,St Paul,7:59am,6:47am,72.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T287,I-35 & Kenrick Ave,St Paul,7:59am,6:47am,72.0,133.0,"Walk to St Paul, MN 55101, USA"
+T290,I-35W & Co Rd C,St Paul,7:59am,7:07am,52.0,27.0,Walk to I-35W / County Road C Park and Ride
+T290,I-35W & Co Rd C,St Paul,7:59am,7:07am,52.0,1080.0,Bus towards Southbound 264C Express/35 Co Rd C P&R/Minneapolis
+T290,I-35W & Co Rd C,St Paul,7:59am,7:07am,52.0,148.0,Walk to 6th St S & Nicollet Mall
+T290,I-35W & Co Rd C,St Paul,7:59am,7:07am,52.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T290,I-35W & Co Rd C,St Paul,7:59am,7:07am,52.0,133.0,"Walk to St Paul, MN 55101, USA"
+T291,Nathan Lane,St Paul,7:59am,6:45am,74.0,90.0,Walk to 45th Ave N & Nathan Lane
+T291,Nathan Lane,St Paul,7:59am,6:45am,74.0,2340.0,Bus towards Eastbound 790 Express / Nathan Ln / Downtown
+T291,Nathan Lane,St Paul,7:59am,6:45am,74.0,134.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T291,Nathan Lane,St Paul,7:59am,6:45am,74.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T291,Nathan Lane,St Paul,7:59am,6:45am,74.0,133.0,"Walk to St Paul, MN 55101, USA"
+T292,SouthWest Village,St Paul,7:59am,6:52am,67.0,140.0,Walk to SouthWest Village P&R & Great Plains Blvd
+T292,SouthWest Village,St Paul,7:59am,6:52am,67.0,2040.0,Bus towards Eastbound 699E Express/EB/E Crk/SW Vill/MPLS
+T292,SouthWest Village,St Paul,7:59am,6:52am,67.0,172.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T292,SouthWest Village,St Paul,7:59am,6:52am,67.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T292,SouthWest Village,St Paul,7:59am,6:52am,67.0,133.0,"Walk to St Paul, MN 55101, USA"
+T293,Running Aces,St Paul,7:34am,6:45am,49.0,19.0,Walk to Running Aces P&R & Zurich / Lake
+T293,Running Aces,St Paul,7:34am,6:45am,49.0,2880.0,Bus towards Southbound 275 Express / St Paul
+T293,Running Aces,St Paul,7:34am,6:45am,49.0,59.0,"Walk to St Paul, MN 55101, USA"
+T294,Forest Lake Transit Center,St Paul,7:34am,6:33am,61.0,39.0,Walk to Transit Center & Forest Lake P&R
+T294,Forest Lake Transit Center,St Paul,7:34am,6:33am,61.0,3600.0,Bus towards Southbound 275 Express / St Paul
+T294,Forest Lake Transit Center,St Paul,7:34am,6:33am,61.0,59.0,"Walk to St Paul, MN 55101, USA"
+T297,East Creek Station,St Paul,7:59am,6:48am,71.0,69.0,Walk to East Creek Transit Station
+T297,East Creek Station,St Paul,7:59am,6:48am,71.0,2340.0,Bus towards Eastbound 697 Express/E Bd/Carver/East Creek/Mpls
+T297,East Creek Station,St Paul,7:59am,6:48am,71.0,172.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T297,East Creek Station,St Paul,7:59am,6:48am,71.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T297,East Creek Station,St Paul,7:59am,6:48am,71.0,133.0,"Walk to St Paul, MN 55101, USA"
+T298,Anoka Station,St Paul,7:49am,6:38am,71.0,49.0,Walk to Anoka Station & Platform
+T298,Anoka Station,St Paul,7:49am,6:38am,71.0,240.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T298,Anoka Station,St Paul,7:49am,6:38am,71.0,30.0,Walk to Coon Rapids Riverdale Station & Gate C
+T298,Anoka Station,St Paul,7:49am,6:38am,71.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T298,Anoka Station,St Paul,7:49am,6:38am,71.0,59.0,"Walk to St Paul, MN 55101, USA"
+T299,Fridley Station,St Paul,7:49am,6:53am,56.0,126.0,Walk to East River Rd & 61st Way NE
+T299,Fridley Station,St Paul,7:49am,6:53am,56.0,1020.0,Bus towards Southbound 852 Express / Northtown / Dntn Mpls
+T299,Fridley Station,St Paul,7:49am,6:53am,56.0,198.0,Walk to 6th St S & Nicollet Mall
+T299,Fridley Station,St Paul,7:49am,6:53am,56.0,1380.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T299,Fridley Station,St Paul,7:49am,6:53am,56.0,133.0,"Walk to St Paul, MN 55101, USA"
+T300,Big Lake Station,St Paul,7:49am,6:16am,93.0,63.0,Walk to Big Lake Station & Platform
+T300,Big Lake Station,St Paul,7:49am,6:16am,93.0,1500.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T300,Big Lake Station,St Paul,7:49am,6:16am,93.0,30.0,Walk to Coon Rapids Riverdale Station & Gate C
+T300,Big Lake Station,St Paul,7:49am,6:16am,93.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T300,Big Lake Station,St Paul,7:49am,6:16am,93.0,59.0,"Walk to St Paul, MN 55101, USA"
+T301,Parkway Station,St Paul,7:59am,6:51am,68.0,52.0,Walk to Parkway Station - P&R
+T301,Parkway Station,St Paul,7:59am,6:51am,68.0,1860.0,Bus towards Southbound 785 Trip 5/Maple Grove/To Mpls
+T301,Parkway Station,St Paul,7:59am,6:51am,68.0,102.0,Walk to 6th St S & Nicollet Mall
+T301,Parkway Station,St Paul,7:59am,6:51am,68.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T301,Parkway Station,St Paul,7:59am,6:51am,68.0,133.0,"Walk to St Paul, MN 55101, USA"
+T302,Hwy 36 & Rice St,St Paul,7:50am,7:18am,32.0,362.0,Walk to Rice St & Co Rd B
+T302,Hwy 36 & Rice St,St Paul,7:50am,7:18am,32.0,1320.0,Bus towards Southbound 62D Smith Av/ Signal Hills / Thompson
+T302,Hwy 36 & Rice St,St Paul,7:50am,7:18am,32.0,238.0,"Walk to St Paul, MN 55101, USA"
+T303,Maple Plain,St Paul,7:43am,6:13am,90.0,129.0,Walk to Maple Plain P&R & Baker Park Rd
+T303,Maple Plain,St Paul,7:43am,6:13am,90.0,3480.0,Bus towards Eastbound 674 Express / Downtown
+T303,Maple Plain,St Paul,7:43am,6:13am,90.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T303,Maple Plain,St Paul,7:43am,6:13am,90.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T303,Maple Plain,St Paul,7:43am,6:13am,90.0,133.0,"Walk to St Paul, MN 55101, USA"
+T304,I-35E & County Road 14,St Paul,7:44am,7:05am,39.0,154.0,Walk to Interstate 35E Co Rd 14 P&R & 21st Ave N
+T304,I-35E & County Road 14,St Paul,7:44am,7:05am,39.0,2160.0,Bus towards Southbound 275 Express / St Paul
+T304,I-35E & County Road 14,St Paul,7:44am,7:05am,39.0,59.0,"Walk to St Paul, MN 55101, USA"
+T305,I-35E & County Road E,St Paul,7:44am,7:21am,23.0,85.0,Walk to Interstate 35E Ramp & I-35E Co Rd E P&R
+T305,I-35E & County Road E,St Paul,7:44am,7:21am,23.0,1260.0,Bus towards Southbound 275 Express / St Paul
+T305,I-35E & County Road E,St Paul,7:44am,7:21am,23.0,59.0,"Walk to St Paul, MN 55101, USA"
+T306,Chanhassen Transit Station,St Paul,7:37am,6:22am,75.0,120.0,Walk to Chanhassen Transit Station & P&R
+T306,Chanhassen Transit Station,St Paul,7:37am,6:22am,75.0,2160.0,Bus towards Eastbound 690C Express/E Bd/Chan Sta/SW Sta/Mpls
+T306,Chanhassen Transit Station,St Paul,7:37am,6:22am,75.0,134.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T306,Chanhassen Transit Station,St Paul,7:37am,6:22am,75.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T306,Chanhassen Transit Station,St Paul,7:37am,6:22am,75.0,133.0,"Walk to St Paul, MN 55101, USA"
+T309,Hopkins Park-and-Ride,St Paul,7:43am,6:43am,60.0,74.0,Walk to Excelsior Blvd & 8th Ave P&R
+T309,Hopkins Park-and-Ride,St Paul,7:43am,6:43am,60.0,1560.0,Bus towards Eastbound 670 Express/Dt Mpls
+T309,Hopkins Park-and-Ride,St Paul,7:43am,6:43am,60.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T309,Hopkins Park-and-Ride,St Paul,7:43am,6:43am,60.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T309,Hopkins Park-and-Ride,St Paul,7:43am,6:43am,60.0,133.0,"Walk to St Paul, MN 55101, USA"
+T312,Carver Station,St Paul,7:59am,6:40am,79.0,35.0,Walk to Carver P&R & Ironwood Dr Jonathan Carver
+T312,Carver Station,St Paul,7:59am,6:40am,79.0,2880.0,Bus towards Eastbound 697 Express/E Bd/Carver/East Creek/Mpls
+T312,Carver Station,St Paul,7:59am,6:40am,79.0,172.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T312,Carver Station,St Paul,7:59am,6:40am,79.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T312,Carver Station,St Paul,7:59am,6:40am,79.0,133.0,"Walk to St Paul, MN 55101, USA"
+T313,Newport Transit Station,St Paul,7:51am,7:24am,27.0,142.0,Walk to 21st St & 2nd Ave
+T313,Newport Transit Station,St Paul,7:51am,7:24am,27.0,1440.0,Bus towards Northbound 364 St Paul Park/ Newport/ St Paul
+T313,Newport Transit Station,St Paul,7:51am,7:24am,27.0,59.0,"Walk to St Paul, MN 55101, USA"
+T315,Paul Parkway,St Paul,7:59am,6:51am,68.0,1980.0,Bus towards Southbound 865 Express / Downtown
+T315,Paul Parkway,St Paul,7:59am,6:51am,68.0,139.0,Walk to 6th St S & Nicollet Mall
+T315,Paul Parkway,St Paul,7:59am,6:51am,68.0,1380.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T315,Paul Parkway,St Paul,7:59am,6:51am,68.0,133.0,"Walk to St Paul, MN 55101, USA"
+T316,Marschall Road Transit Station,St Paul,7:59am,6:26am,93.0,217.0,Walk to The Marschall Road Transit Station
+T316,Marschall Road Transit Station,St Paul,7:59am,6:26am,93.0,3180.0,Bus towards 493 Minneapolis
+T316,Marschall Road Transit Station,St Paul,7:59am,6:26am,93.0,102.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T316,Marschall Road Transit Station,St Paul,7:59am,6:26am,93.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T316,Marschall Road Transit Station,St Paul,7:59am,6:26am,93.0,133.0,"Walk to St Paul, MN 55101, USA"
+T317,Dunkirk Park & Ride,St Paul,7:59am,6:45am,74.0,10.0,Walk to Dunkirk Ln P&R - Plymouth Presbyterian
+T317,Dunkirk Park & Ride,St Paul,7:59am,6:45am,74.0,2340.0,Bus towards Eastbound 774 EB/Dunkirk/Sta 73/East/DTWN/UofM
+T317,Dunkirk Park & Ride,St Paul,7:59am,6:45am,74.0,134.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T317,Dunkirk Park & Ride,St Paul,7:59am,6:45am,74.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T317,Dunkirk Park & Ride,St Paul,7:59am,6:45am,74.0,133.0,"Walk to St Paul, MN 55101, USA"
+T318,Carmike Cinema,St Paul,7:46am,6:54am,52.0,359.0,Walk to Apple Valley Transitway Station NB
+T318,Carmike Cinema,St Paul,7:46am,6:54am,52.0,2640.0,Bus towards 480 St Paul
+T318,Carmike Cinema,St Paul,7:46am,6:54am,52.0,133.0,"Walk to St Paul, MN 55101, USA"
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,18.0,Walk to Becker P&R & Willow St
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,1200.0,Bus towards Southbound 887 Northstar Link/Big Lake/ResourceCtr
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,33.0,Walk to Big Lake Station & Platform
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,1500.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,30.0,Walk to Coon Rapids Riverdale Station & Gate C
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T534,Becker Municipal Lot,St Paul,7:49am,5:49am,120.0,59.0,"Walk to St Paul, MN 55101, USA"
+T564,Northstar Link Lot,St Paul,7:49am,5:30am,139.0,2400.0,Bus towards Southbound 887 Northstar Link/Big Lake/ResourceCtr
+T564,Northstar Link Lot,St Paul,7:49am,5:30am,139.0,33.0,Walk to Big Lake Station & Platform
+T564,Northstar Link Lot,St Paul,7:49am,5:30am,139.0,1500.0,Train towards Southbound Northstar / Minneapolis / Target Field
+T564,Northstar Link Lot,St Paul,7:49am,5:30am,139.0,30.0,Walk to Coon Rapids Riverdale Station & Gate C
+T564,Northstar Link Lot,St Paul,7:49am,5:30am,139.0,3420.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T564,Northstar Link Lot,St Paul,7:49am,5:30am,139.0,59.0,"Walk to St Paul, MN 55101, USA"
+T701,Maplewood Mall Transit Center,St Paul,7:46am,7:21am,25.0,60.0,Walk to Maplewood Mall Transit Center & Gate B
+T701,Maplewood Mall Transit Center,St Paul,7:46am,7:21am,25.0,1380.0,Bus towards Southbound 265 Express / St Paul
+T701,Maplewood Mall Transit Center,St Paul,7:46am,7:21am,25.0,59.0,"Walk to St Paul, MN 55101, USA"
+T703,Northtown Transit Center,St Paul,7:49am,7:08am,41.0,2460.0,Bus towards Southbound 860 Express/St Paul/Northtown
+T703,Northtown Transit Center,St Paul,7:49am,7:08am,41.0,59.0,"Walk to St Paul, MN 55101, USA"
+T704,Louisiana Ave Transit Center,St Paul,7:59am,7:12am,47.0,130.0,Walk to Louisiana Transit Center & B Bay
+T704,Louisiana Ave Transit Center,St Paul,7:59am,7:12am,47.0,900.0,Bus towards Eastbound 663 Express / Downtown
+T704,Louisiana Ave Transit Center,St Paul,7:59am,7:12am,47.0,1200.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T704,Louisiana Ave Transit Center,St Paul,7:59am,7:12am,47.0,133.0,"Walk to St Paul, MN 55101, USA"
+T705,Plymouth Road Park & Ride,St Paul,7:49am,6:51am,58.0,61.0,Walk to Wayzata Blvd N & Morries Auto
+T705,Plymouth Road Park & Ride,St Paul,7:49am,6:51am,58.0,1440.0,Bus towards Eastbound 672 Express / Downtown
+T705,Plymouth Road Park & Ride,St Paul,7:49am,6:51am,58.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T705,Plymouth Road Park & Ride,St Paul,7:49am,6:51am,58.0,1260.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T705,Plymouth Road Park & Ride,St Paul,7:49am,6:51am,58.0,133.0,"Walk to St Paul, MN 55101, USA"
+T706,Southdale Transit Center,St Paul,7:43am,6:44am,59.0,29.0,Walk to Southdale Transit Center & Gate C
+T706,Southdale Transit Center,St Paul,7:43am,6:44am,59.0,1620.0,Bus towards Northbound 578 Express / Downtown
+T706,Southdale Transit Center,St Paul,7:43am,6:44am,59.0,117.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T706,Southdale Transit Center,St Paul,7:43am,6:44am,59.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T706,Southdale Transit Center,St Paul,7:43am,6:44am,59.0,133.0,"Walk to St Paul, MN 55101, USA"
+T716,157th St Station,Minneapolis,7:51am,7:06am,45.0,7.0,Walk to 157th St Station
+T716,157th St Station,Minneapolis,7:51am,7:06am,45.0,2640.0,Bus towards 479 Minneapolis
+T716,157th St Station,Minneapolis,7:51am,7:06am,45.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T718,Cedar Grove Transit Station,Minneapolis,7:48am,6:55am,53.0,33.0,Walk to Cedar Grove Transit Station
+T718,Cedar Grove Transit Station,Minneapolis,7:48am,6:55am,53.0,3120.0,Bus towards 472 Minneapolis
+T718,Cedar Grove Transit Station,Minneapolis,7:48am,6:55am,53.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T719,Lakeville Cedar,Minneapolis,7:41am,6:50am,51.0,90.0,Walk to Lakeville Cedar P&R
+T719,Lakeville Cedar,Minneapolis,7:41am,6:50am,51.0,2940.0,Bus towards 477 Minneapolis
+T719,Lakeville Cedar,Minneapolis,7:41am,6:50am,51.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T721,Rosemount Transit Station,Minneapolis,7:59am,7:13am,46.0,2760.0,Bus towards 478 Minneapolis
+T721,Rosemount Transit Station,Minneapolis,7:59am,7:13am,46.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T722,Eagle Creek Transit Station,Minneapolis,7:57am,6:59am,58.0,220.0,Walk to Eagle Creek Park & Ride
+T722,Eagle Creek Transit Station,Minneapolis,7:57am,6:59am,58.0,3240.0,Bus towards 490 Minneapolis/Eagle/Southbridge
+T722,Eagle Creek Transit Station,Minneapolis,7:57am,6:59am,58.0,49.0,"Walk to 215 S 8th St, Minneapolis, MN 55402, USA"
+T710,Burnsville Transit Station,St Paul,7:59am,7:01am,58.0,57.0,Walk to Burnsville Transit Station
+T710,Burnsville Transit Station,St Paul,7:59am,7:01am,58.0,1560.0,Bus towards 460 Minneapolis
+T710,Burnsville Transit Station,St Paul,7:59am,7:01am,58.0,102.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T710,Burnsville Transit Station,St Paul,7:59am,7:01am,58.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T710,Burnsville Transit Station,St Paul,7:59am,7:01am,58.0,133.0,"Walk to St Paul, MN 55101, USA"
+T711,Eagan Transit Station,St Paul,7:52am,7:20am,32.0,46.0,Walk to Eagan Transit Station
+T711,Eagan Transit Station,St Paul,7:52am,7:20am,32.0,1740.0,Bus towards 484 St Paul
+T711,Eagan Transit Station,St Paul,7:52am,7:20am,32.0,133.0,"Walk to St Paul, MN 55101, USA"
+T712,Apple Valley Transit Station,St Paul,7:46am,6:56am,50.0,240.0,Walk to Apple Valley Transitway Station NB
+T712,Apple Valley Transit Station,St Paul,7:46am,6:56am,50.0,2640.0,Bus towards 480 St Paul
+T712,Apple Valley Transit Station,St Paul,7:46am,6:56am,50.0,133.0,"Walk to St Paul, MN 55101, USA"
+T713,SouthWest Station,St Paul,7:59am,6:58am,61.0,91.0,Walk to SW Station P&R & Technology Dr
+T713,SouthWest Station,St Paul,7:59am,6:58am,61.0,1620.0,Bus towards Eastbound 690A Express/E BD/Dell Rd/VV/SW Sta/Mpls
+T713,SouthWest Station,St Paul,7:59am,6:58am,61.0,172.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T713,SouthWest Station,St Paul,7:59am,6:58am,61.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T713,SouthWest Station,St Paul,7:59am,6:58am,61.0,133.0,"Walk to St Paul, MN 55101, USA"
+T714,Station 73,St Paul,7:59am,7:00am,59.0,1560.0,Bus towards Eastbound 774 EB/Dunkirk/Sta 73/East/DTWN/UofM
+T714,Station 73,St Paul,7:59am,7:00am,59.0,134.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T714,Station 73,St Paul,7:59am,7:00am,59.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T714,Station 73,St Paul,7:59am,7:00am,59.0,133.0,"Walk to St Paul, MN 55101, USA"
+T715,Mound Transit Center,St Paul,7:37am,6:28am,69.0,43.0,Walk to Mound Transit Center & Shoreline Dr (Co Rd 15)
+T715,Mound Transit Center,St Paul,7:37am,6:28am,69.0,2400.0,Bus towards Eastbound 677 Express/Minneapolis/Hwy 12 Bypass
+T715,Mound Transit Center,St Paul,7:37am,6:28am,69.0,85.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T715,Mound Transit Center,St Paul,7:37am,6:28am,69.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T715,Mound Transit Center,St Paul,7:37am,6:28am,69.0,133.0,"Walk to St Paul, MN 55101, USA"
+T716,157th St Station,St Paul,7:49am,6:34am,75.0,7.0,Walk to 157th St Station
+T716,157th St Station,St Paul,7:49am,6:34am,75.0,2700.0,Bus towards 479 Minneapolis
+T716,157th St Station,St Paul,7:49am,6:34am,75.0,102.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T716,157th St Station,St Paul,7:49am,6:34am,75.0,1260.0,Bus towards Eastbound 94F Express / Dwtn St Paul / River Plaza
+T716,157th St Station,St Paul,7:49am,6:34am,75.0,133.0,"Walk to St Paul, MN 55101, USA"
+T718,Cedar Grove Transit Station,St Paul,7:52am,6:58am,54.0,603.0,Walk to Cedar Grove Pkwy at Rahn Rd SE corner
+T718,Cedar Grove Transit Station,St Paul,7:52am,6:58am,54.0,2460.0,Bus towards 484 St Paul
+T718,Cedar Grove Transit Station,St Paul,7:52am,6:58am,54.0,133.0,"Walk to St Paul, MN 55101, USA"
+T719,Lakeville Cedar,St Paul,7:26am,6:21am,65.0,90.0,Walk to Lakeville Cedar P&R
+T719,Lakeville Cedar,St Paul,7:26am,6:21am,65.0,480.0,Bus towards 477 Minneapolis
+T719,Lakeville Cedar,St Paul,7:26am,6:21am,65.0,2400.0,Bus towards 480 St Paul
+T719,Lakeville Cedar,St Paul,7:26am,6:21am,65.0,133.0,"Walk to St Paul, MN 55101, USA"
+T721,Rosemount Transit Station,St Paul,7:35am,7:02am,33.0,1860.0,Bus towards 484 St Paul
+T721,Rosemount Transit Station,St Paul,7:35am,7:02am,33.0,133.0,"Walk to St Paul, MN 55101, USA"
+T722,Eagle Creek Transit Station,St Paul,7:59am,6:35am,84.0,220.0,Walk to Eagle Creek Park & Ride
+T722,Eagle Creek Transit Station,St Paul,7:59am,6:35am,84.0,2940.0,Bus towards 490 Minneapolis/Eagle/Southbridge
+T722,Eagle Creek Transit Station,St Paul,7:59am,6:35am,84.0,102.0,Walk to 6th St S & 2nd Ave / 3rd Ave S
+T722,Eagle Creek Transit Station,St Paul,7:59am,6:35am,84.0,1260.0,Bus towards Eastbound 94D Express / Dwtn St Paul / Union Depot
+T722,Eagle Creek Transit Station,St Paul,7:59am,6:35am,84.0,133.0,"Walk to St Paul, MN 55101, USA"
