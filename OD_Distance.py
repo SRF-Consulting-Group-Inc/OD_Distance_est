@@ -12,28 +12,35 @@ print(cwd)
 files = os.listdir(path)
 
 k = open('C:/Users/dgallen/Desktop/Python/k/New Text Document.txt','r').read()
-OD = pd.read_csv('pnr_xy_forGoogleAPI_800.csv')
+OD = pd.read_csv('pnr_xy_forGoogleAPI_730 - Copy.csv')
 OD = OD.set_index('TCode')
 gmaps = googlemaps.Client(k)
 
 OD['origin'] = [[OD['ox'][x],OD['oy'][x]] for x in range(OD.shape[0])]
 OD['dest'] = [[OD['dx'][x],OD['dy'][x]] for x in range(OD.shape[0])]
 
-OD_test = OD.iloc[201:212]
+OD_test = OD.iloc[:]
 
-DT = datetime.strptime('2018-9-19 08:00', '%Y-%m-%d %H:%M')
+DT = datetime.strptime('2018-9-19 07:30', '%Y-%m-%d %H:%M')
 	
+direct = gmaps.directions(origin = OD_test['origin'][1],
+                      destination = OD_test['dest'][1],
+                       mode = 'driving',
+					   arrival_time = DT)
+
+
 results = []
 for x in range(OD_test.shape[0]):
-           direct = gmaps.directions(origin = OD_test['origin'][x],
-                       destination = OD_test['dest'][x],
-                       mode = 'transit',
-                       transit_mode = 'bus',
-					   arrival_time = DT)
+           direct = gmaps.directions(origin = OD_test['origin'][1],
+                       destination = OD_test['dest'][1],
+                       mode = 'driving',
+					   arrival_time = DT,
+					   traffic_model = 'pessimistic')
            results.append(direct)
 
-results[90][0]['legs'][0]['steps'][1]['html_instructions']
-results[1][0]['legs'][0]['steps'][1]['duration']['value']
+results[0][1]['legs'][0]['arrival_time']
+results[0][0]['legs'][0]['steps'][1]['html_instructions']
+results[0][0]['legs'][0]['steps'][1]['duration']['value']
 results[1][0]['legs'][0]['departure_time']
 
 
