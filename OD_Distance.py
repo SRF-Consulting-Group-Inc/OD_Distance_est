@@ -114,7 +114,7 @@ t.name = 'Direction'
 t = t.reset_index().drop(['TCode'], axis = 1)
 merged_items = s.join(t)
 
-merge201_212 = OD_test[['Name','destCity','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
+merge201_212 = OD_test[['Name','origin','destCity','dest','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
 
 merge1_100
 merge101_200
