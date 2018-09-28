@@ -1,6 +1,0 @@
-TCode,Name,PnRNum,ox,oy,dx,dy,arriveTime,tripDate,destCity
-T252,Ft Snelling Station North,252,44.8966,-93.1984,44.974573,-93.27035,7:30 AM,9/19/2017,Minneapolis
-T253,Ft Snelling Station South,253,44.8912,-93.1966,44.974573,-93.27035,7:30 AM,9/19/2017,Minneapolis
-T256,Hwy 100 & Duluth,256,45.0001,-93.3511,44.974573,-93.27035,7:30 AM,9/19/2017,Minneapolis
-T258,Heart of the City,258,44.7728,-93.2794,44.974573,-93.27035,7:30 AM,9/19/2017,Minneapolis
-T261,Knox Avenue at Best Buy,261,44.8624,-93.3039,44.974573,-93.27035,7:30 AM,9/19/2017,Minneapolis

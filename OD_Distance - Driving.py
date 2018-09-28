@@ -2,8 +2,11 @@ import googlemaps
 import os 
 import numpy as np
 import pandas as pd
+import re
 import csv
+import _pickle as cPickle
 from datetime import datetime
+
 
 path = 'C:/Users/dgallen/Desktop/Python/OD_Distance_est'
 os.chdir(path)
@@ -12,21 +15,41 @@ print(cwd)
 files = os.listdir(path)
 
 k = open('C:/Users/dgallen/Desktop/Python/k/New Text Document.txt','r').read()
-OD = pd.read_csv('pnr_xy_forGoogleAPI_730 - Copy.csv')
-OD = OD.set_index('TCode')
+OD = pd.read_csv('OD_set_auto.csv')
+#OD = OD.set_index('TCode')
 gmaps = googlemaps.Client(k)
 
 OD['origin'] = [[OD['ox'][x],OD['oy'][x]] for x in range(OD.shape[0])]
 OD['dest'] = [[OD['dx'][x],OD['dy'][x]] for x in range(OD.shape[0])]
 
-OD_test = OD.iloc[:]
+OD_test = OD.iloc[:25]
 
-DT = datetime.strptime('2018-9-19 07:30', '%Y-%m-%d %H:%M')
+DT = datetime.strptime('2018-10-3 07:00', '%Y-%m-%d %H:%M')
 	
 direct = gmaps.directions(origin = OD_test['origin'][1],
                       destination = OD_test['dest'][1],
                        mode = 'driving',
-					   arrival_time = DT)
+					   alternatives = True,
+					   traffic_model = 'pessimistic',
+					   departure_time = DT)
+
+direct[1]['legs'][0]['steps'][5]['html_instructions']
+
+def cleanhtml(raw_html):
+  cleanr = re.compile('<.*?>')
+  cleantext = re.sub(cleanr, '', raw_html)
+  return cleantext
+
+cPickle.dump(direct, open('save.p', 'wb')) 
+
+
+direct[1]['legs'][0]['duration_in_traffic']
+direct[0]['legs'][0]['steps'][0]['html_instructions']
+direct[0]['legs'][0]['steps'][0]
+
+import cPickle
+cPickle.dump(obj, open('save.p', 'wb')) 
+obj = cPickle.load(open('save.p', 'rb'))
 
 
 results = []
@@ -114,7 +137,7 @@ t.name = 'Direction'
 t = t.reset_index().drop(['TCode'], axis = 1)
 merged_items = s.join(t)
 
-merge201_212 = OD_test[['Name','origin','destCity','dest','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
+merge201_212 = OD_test[['Name','destCity','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
 
 merge1_100
 merge101_200
