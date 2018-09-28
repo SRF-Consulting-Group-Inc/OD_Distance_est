@@ -23,28 +23,33 @@ OD['dest'] = [[OD['dx'][x],OD['dy'][x]] for x in range(OD.shape[0])]
 
 OD_test = OD.iloc[:5]
 
+t_model = ['pessimistic', 'optimistic', 'best_guess']
+
+pd_list = list()
+for d, f in enumerate(t_model):
+	g = OD_test[:]
+	g['Traffic_model'] = f
+	pd_list.append(g)
+
+pd.concat(pd_list)
+
 DT = datetime.strptime('2018-10-3 07:00', '%Y-%m-%d %H:%M')
 
-t_model = 'pessimistic'
 direct = gmaps.directions(origin = OD_test['origin'][1],
                       destination = OD_test['dest'][1],
                        mode = 'driving',
 					   alternatives = True,
-					   traffic_model = t_model,
+					   traffic_model = OD_test['Traffic_model'],
 					   departure_time = DT)
 
 direct[1]['legs'][0]['steps'][5]['html_instructions']
-
-def cleanhtml(raw_html):
-  cleanr = re.compile('<.*?>')
-  cleantext = re.sub(cleanr, '', raw_html)
-  return cleantext
 
 
 direct[1]['legs'][0]['duration_in_traffic']
 direct[0]['legs'][0]['steps'][2]['html_instructions']
 direct[0]['legs'][0]['steps'][1].keys()
 direct[0]['summary']
+
 
 results = []
 for x in range(OD_test.shape[0]):
@@ -170,6 +175,7 @@ for idx, val in enumerate(step):
 	step_start_loc.append(u_str)
 	step_html.append(u_html)
 
+initial_col_list = list(OD_test.columns)
 
 OD_test['Summary'] = [summary[x] for x in range(OD_test.shape[0])]
 OD_test['Distance'] = [distance[x] for x in range(OD_test.shape[0])]
@@ -182,48 +188,39 @@ OD_test['step_start_loc'] = [step_start_loc[x] for x in range(OD_test.shape[0])]
 OD_test['step_html'] = [step_html[x] for x in range(OD_test.shape[0])]
 
 
-col_list = list(OD_test.columns[12:20])
+col_list = list(OD_test.columns[12:21])
 
-cols = []
+cols = dict()
 for n in col_list:
 	s = OD_test.apply(lambda x: pd.Series(x[n]),axis=1).stack().reset_index(level=1, drop=True)
 	s.name = n
-	s = s.reset_index()
-	s = s.drop(['index'], axis = 1)
-	cols.append(s)
+	#s = s.reset_index()
+	cols[n] = s
 
+o = pd.DataFrame.from_records(cols)
 
+OD_test = pd.merge(OD_test[initial_col_list], o, left_index=True, right_index=True)
 
-lst1 = range(100)
-lst2 = range(100)
-lst3 = range(100)
-percentile_list = pd.DataFrame(
-    {'lst1Title': lst1,
-     'lst2Title': lst2,
-     'lst3Title': lst3
-    })
+OD_test = OD_test.reset_index()
 
+col_list = list(OD_test.columns[13:22])
+cols = dict()
+for n in col_list:
+	s = OD_test.apply(lambda x: pd.Series(x[n]),axis=1).stack().reset_index(level=1, drop=True)
+	s.name = n
+	#s = s.reset_index()
+	cols[n] = s
 
+p = pd.DataFrame.from_records(cols)
 
+OD_test = pd.merge(OD_test[initial_col_list], p, left_index=True, right_index=True)
 
-s = OD_test.apply(lambda x: pd.Series(x['Summary']),axis=1).stack().reset_index(level=1, drop=True)
-s.name = 'Summary'
-s = s.reset_index()
-t = OD_test.apply(lambda x: pd.Series(x['Directions']),axis=1).stack().reset_index(level=1, drop=True)
-t.name = 'Direction'
-t = t.reset_index().drop(['TCode'], axis = 1)
-merged_items = s.join(t)
+def cleanhtml(raw_html):
+  cleanr = re.compile('<.*?>')
+  cleantext = re.sub(cleanr, '', raw_html)
+  return cleantext
 
-merge201_212 = OD_test[['Name','destCity','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
+OD_test['step_html'] = OD_test['step_html'].apply(cleanhtml)
 
+OD_test.to_csv('test.csv')
 
-pa = []
-for x in range(OD_test.shape[0]):
-	if OD_test['Final_Arrival'][x] == []:
-		p = []
-	else:
-		p = (datetime.strptime(OD_test['Final_Arrival'][x], '%H:%M%p') - datetime.strptime(OD_test['Initial_Departure'][x], '%H:%M%p')).seconds/60
-	pa.append(p)
-OD_test['Total_Trip_Duration_mins'] = [pa[x] for x in range(OD_test.shape[0])]
-
-merge.to_csv('OD_results_800.csv')
