@@ -16,21 +16,21 @@ files = os.listdir(path)
 
 k = open('C:/Users/dgallen/Desktop/Python/k/New Text Document.txt','r').read()
 OD = pd.read_csv('OD_set_auto.csv')
-#OD = OD.set_index('TCode')
 gmaps = googlemaps.Client(k)
 
 OD['origin'] = [[OD['ox'][x],OD['oy'][x]] for x in range(OD.shape[0])]
 OD['dest'] = [[OD['dx'][x],OD['dy'][x]] for x in range(OD.shape[0])]
 
-OD_test = OD.iloc[:25]
+OD_test = OD.iloc[:5]
 
 DT = datetime.strptime('2018-10-3 07:00', '%Y-%m-%d %H:%M')
-	
+
+t_model = 'pessimistic'
 direct = gmaps.directions(origin = OD_test['origin'][1],
                       destination = OD_test['dest'][1],
                        mode = 'driving',
 					   alternatives = True,
-					   traffic_model = 'pessimistic',
+					   traffic_model = t_model,
 					   departure_time = DT)
 
 direct[1]['legs'][0]['steps'][5]['html_instructions']
@@ -40,26 +40,24 @@ def cleanhtml(raw_html):
   cleantext = re.sub(cleanr, '', raw_html)
   return cleantext
 
-cPickle.dump(direct, open('save.p', 'wb')) 
-
 
 direct[1]['legs'][0]['duration_in_traffic']
-direct[0]['legs'][0]['steps'][0]['html_instructions']
-direct[0]['legs'][0]['steps'][0]
-
-import cPickle
-cPickle.dump(obj, open('save.p', 'wb')) 
-obj = cPickle.load(open('save.p', 'rb'))
-
+direct[0]['legs'][0]['steps'][2]['html_instructions']
+direct[0]['legs'][0]['steps'][1].keys()
+direct[0]['summary']
 
 results = []
 for x in range(OD_test.shape[0]):
-           direct = gmaps.directions(origin = OD_test['origin'][1],
-                       destination = OD_test['dest'][1],
+           direct = gmaps.directions(origin = OD_test['origin'][x],
+                       destination = OD_test['dest'][x],
                        mode = 'driving',
-					   arrival_time = DT,
-					   traffic_model = 'pessimistic')
+					   alternatives = True,
+					   departure_time = DT,
+					   traffic_model = t_model)
            results.append(direct)
+
+cPickle.dump(results, open('results.p', 'wb')) 
+#results = cPickle.load(open('results.p', 'rb'))
 
 results[0][1]['legs'][0]['arrival_time']
 results[0][0]['legs'][0]['steps'][1]['html_instructions']
@@ -139,8 +137,5 @@ merged_items = s.join(t)
 
 merge201_212 = OD_test[['Name','destCity','Final_Arrival','Initial_Departure','Total_Trip_Duration_mins']].join(merged_items.set_index('TCode'))
 
-merge1_100
-merge101_200
-merge = merge1_100.append(merge101_200)
-merge = merge.append(merge201_212)
+
 merge.to_csv('OD_results_800.csv')
