@@ -1,0 +1,89 @@
+---
+title: "Google API aggregation"
+output: html_notebook
+---
+
+```{r setup, include=FALSE, warnings = FALSE}
+knitr::opts_knit$set(root.dir = "C:/Users/dgallen/Desktop/Python/OD_Distance_est")
+
+library(flexdashboard)
+library(DBI)
+library(RPostgreSQL)
+library(tidyverse)
+library(lubridate)
+library(reshape2)
+library(ggthemes)
+library(RCurl)
+library(ggridges)
+library(rbokeh)
+library(leaflet)
+library(rgdal)
+library(DT)
+library(dygraphs)
+library(plotly)
+library(xts)
+```
+
+```{r}
+#Load data
+file_names <- dir('./results')
+
+dat <-  read.csv(paste('./results/',file_names[163], sep = '')) %>%
+  select(X,id, long = oy, lat =  ox, index, recordType, destCity, Traffic_model, Distance, Durations_sec,Summary, duration_in_traffic)
+
+dat <- dat[!duplicated(dat$X),]
+
+dat_uniq <- dat[!duplicated(dat$id),] %>%
+    dcast(... ~ Traffic_model, value.var = 'duration_in_traffic') 
+```
+
+
+```{r}
+path <-  "./results/"
+out_file <- data.frame()
+file_names <- dir(path, pattern = ".csv")
+for(i in 1:length(file_names)){
+  file <- read.csv(paste('./results/',file_names[i], sep = ''))
+  dat_uniq <- file[!duplicated(file$X),] %>%
+  select(X,id,lat =  ox, long = oy,  index, recordType, destCity, Traffic_model, Distance, Durations_sec,Summary, duration_in_traffic)
+  out_file <- rbind(out_file, dat_uniq)
+}
+
+out_file %>%
+  select(-index) %>%
+  write.csv('results_rev1.csv', row.names = FALSE)
+```
+
+```{r,echo=FALSE}
+
+leaflet(data = out_file , width = '100%') %>%
+  addTiles() %>%
+  addMarkers(~long, ~lat, popup = ~as.character(id), label = ~as.character(id)) %>% 
+  addProviderTiles(providers$OpenStreetMap)
+
+```
+
+```{r}
+out_file %>%
+  group_by(id) %>%
+  summarise(n = n())%>%
+  arrange(desc(n))
+```
+
+
+```{r}
+
+out_file %>%
+  group_by(Summary) %>%
+  summarise(n = n()) %>%
+  arrange(desc(n)) %>%
+  merge(out_file) %>%
+  # filter(n > 200) %>%
+  ggplot(aes(x=Distance/5280, y = duration_in_traffic/3600  , color =  Durations_sec/3600)) + 
+  ylab('Congested Travel Time') +
+  xlab('Distance miles') +
+  geom_point()
+```
+
+
+
